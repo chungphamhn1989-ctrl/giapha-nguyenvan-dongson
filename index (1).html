@@ -1,0 +1,2716 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gia Phả Số Dòng Họ Nguyễn Văn — Đông Nam, Đông Sơn, Thanh Hóa</title>
+<meta name="description" content="Gia phả số truyền đời Dòng họ Nguyễn Văn (Thôn Mai Chữ, xóm Liêm Chính, xã Đông Nam, huyện Đông Sơn, tỉnh Thanh Hóa) - Tra cứu Phả ký, Phả đồ 40 đời, Sổ giỗ và Lăng mộ tổ.">
+<style>
+  :root {
+    --bg-paper: #FFFDF7;
+    --bg-card: #FFFFFF;
+    --bg-warm: #F9F3E6;
+    --text-main: #2B1E16;
+    --text-muted: #5C4938;
+    --red-lacquer: #8B1A1A;
+    --red-dark: #631111;
+    --gold-bronze: #D4AF37;
+    --gold-dark: #9A7B1C;
+    --green-living: #15693A;
+    --green-bg: #ECFDF3;
+    --border-wood: #DFD1B8;
+    --base-font: 18px;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-paper);
+    color: var(--text-main);
+    font-size: var(--base-font);
+    line-height: 1.65;
+    transition: font-size 0.2s ease;
+  }
+
+  /* Header Trống Đồng Đông Sơn */
+  .hero-header {
+    position: relative;
+    background: linear-gradient(135deg, #5C0E0E 0%, #8B1A1A 55%, #A65E14 100%);
+    color: #FFFDF7;
+    text-align: center;
+    padding: 32px 16px 28px 16px;
+    border-bottom: 5px solid var(--gold-bronze);
+    overflow: hidden;
+  }
+
+  .dong-son-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 340px;
+    height: 340px;
+    opacity: 0.14;
+    pointer-events: none;
+  }
+
+  .hero-sub {
+    font-size: 0.85em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FDE68A;
+    font-weight: 700;
+    margin-bottom: 6px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .hero-title {
+    margin: 0 0 8px 0;
+    font-size: 1.85em;
+    font-weight: 800;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.35);
+    position: relative;
+    z-index: 2;
+  }
+
+  .hero-desc {
+    margin: 0 auto;
+    max-width: 820px;
+    font-size: 0.95em;
+    color: #FEF3C7;
+    position: relative;
+    z-index: 2;
+  }
+
+  /* Thanh tiện ích cố định cho người cao tuổi */
+  .utility-bar {
+    position: sticky;
+    top: 0;
+    z-index: 200;
+    background: rgba(255, 253, 247, 0.98);
+    border-bottom: 2px solid var(--border-wood);
+    padding: 8px 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 2px 8px rgba(43, 30, 22, 0.08);
+  }
+
+  .util-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .btn {
+    min-height: 44px;
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: 1.5px solid var(--border-wood);
+    background: #FFFFFF;
+    color: var(--text-main);
+    font-weight: 700;
+    font-size: 0.9em;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    transition: all 0.15s ease;
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    border-color: var(--gold-dark);
+    background: #FEF9EC;
+  }
+
+  .btn.active-font {
+    background: var(--red-lacquer);
+    color: #FFF;
+    border-color: var(--red-lacquer);
+  }
+
+  .btn-primary {
+    background: var(--red-lacquer);
+    color: #FFF;
+    border-color: var(--red-lacquer);
+  }
+
+  .btn-primary:hover {
+    background: var(--red-dark);
+  }
+
+  .btn-gold {
+    background: #FEF3C7;
+    color: #78350F;
+    border-color: var(--gold-bronze);
+  }
+
+  .btn-zalo {
+    background: #0068FF;
+    color: #FFF;
+    border-color: #0068FF;
+  }
+
+  .btn-admin-on {
+    background: #15693A;
+    color: #FFF;
+    border-color: #15693A;
+  }
+
+  /* Menu 3 Phân Hệ Hạt Nhân */
+  .main-nav {
+    max-width: 1140px;
+    margin: 18px auto 0 auto;
+    padding: 0 12px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .nav-tab {
+    min-height: 54px;
+    padding: 12px 10px;
+    border-radius: 12px;
+    border: 2px solid var(--border-wood);
+    background: var(--bg-card);
+    color: var(--text-main);
+    font-size: 1em;
+    font-weight: 800;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.04);
+    transition: all 0.2s ease;
+  }
+
+  .nav-tab.active {
+    background: var(--red-lacquer);
+    color: #FFFDF7;
+    border-color: var(--gold-bronze);
+    box-shadow: 0 4px 12px rgba(139, 26, 26, 0.25);
+  }
+
+  .container {
+    max-width: 1140px;
+    margin: 20px auto 60px auto;
+    padding: 0 12px;
+  }
+
+  .tab-section { display: none; }
+  .tab-section.active { display: block; }
+
+  /* Cards & Boxes */
+  .card {
+    background: var(--bg-card);
+    border: 1.5px solid var(--border-wood);
+    border-top: 4px solid var(--red-lacquer);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(43,30,22,0.05);
+  }
+
+  .card-title {
+    margin: 0 0 14px 0;
+    color: var(--red-lacquer);
+    font-size: 1.3em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1.5px dashed var(--border-wood);
+    padding-bottom: 10px;
+  }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  .stat-box {
+    background: var(--bg-warm);
+    border: 1.5px solid var(--gold-bronze);
+    border-radius: 10px;
+    padding: 14px;
+    text-align: center;
+  }
+
+  .stat-num {
+    font-size: 1.6em;
+    font-weight: 800;
+    color: var(--red-lacquer);
+    display: block;
+  }
+
+  /* Search & Filter Bar */
+  .filter-bar {
+    background: var(--bg-warm);
+    border: 1.5px solid var(--border-wood);
+    border-radius: 12px;
+    padding: 14px;
+    margin-bottom: 18px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr auto;
+    gap: 10px;
+    align-items: center;
+  }
+
+  @media (max-width: 780px) {
+    .filter-bar { grid-template-columns: 1fr; }
+    .main-nav { grid-template-columns: 1fr; }
+  }
+
+  input[type="text"], input[type="password"], select, textarea {
+    width: 100%;
+    min-height: 44px;
+    padding: 8px 12px;
+    border: 1.5px solid var(--border-wood);
+    border-radius: 8px;
+    font-size: 0.95em;
+    font-family: inherit;
+    background: #FFF;
+    color: var(--text-main);
+  }
+
+  /* Tree View (Mở rộng 20-40 đời) */
+  .tree-wrapper {
+    background: #FFF;
+    border: 1.5px solid var(--border-wood);
+    border-radius: 12px;
+    padding: 16px;
+    overflow-x: auto;
+  }
+
+  .tree-node {
+    margin-left: 22px;
+    padding-left: 16px;
+    border-left: 2.5px solid var(--gold-bronze);
+    margin-top: 10px;
+  }
+
+  .tree-node.root-node {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: none;
+  }
+
+  .node-card {
+    background: var(--bg-paper);
+    border: 1.5px solid var(--border-wood);
+    border-radius: 10px;
+    padding: 12px 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.15s ease;
+  }
+
+  .node-card:hover {
+    border-color: var(--red-lacquer);
+    background: #FFFDF2;
+  }
+
+  .node-card.has-warning {
+    border-left: 5px solid #D97706;
+  }
+
+  .badge {
+    display: inline-block;
+    padding: 2px 9px;
+    border-radius: 999px;
+    font-size: 0.78em;
+    font-weight: 700;
+  }
+
+  .badge-gen { background: #FEE2E2; color: var(--red-lacquer); }
+  .badge-living { background: var(--green-bg); color: var(--green-living); border: 1px solid #86EFAC; }
+  .badge-deceased { background: #F3F4F6; color: #374151; border: 1px solid #D1D5DB; }
+  .badge-warn { background: #FEF3C7; color: #92400E; border: 1px solid #FCD34D; }
+
+  .toggle-branch-btn {
+    width: 38px;
+    height: 38px;
+    border-radius: 8px;
+    border: 1.5px solid var(--red-lacquer);
+    background: #FFF;
+    color: var(--red-lacquer);
+    font-weight: 900;
+    font-size: 1.1em;
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+
+  /* Kinship Calculator */
+  .kinship-box {
+    background: #FFFBEB;
+    border: 1.5px solid var(--gold-bronze);
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 18px;
+  }
+
+  .kinship-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  @media (max-width: 780px) {
+    .kinship-grid { grid-template-columns: 1fr; }
+  }
+
+  /* Profile Grid */
+  .member-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+    gap: 14px;
+  }
+
+  .member-card {
+    background: #FFF;
+    border: 1.5px solid var(--border-wood);
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  /* Modal */
+  .modal-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(25, 15, 10, 0.65);
+    z-index: 500;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 14px;
+  }
+
+  .modal-backdrop.open { display: flex; }
+
+  .modal-box {
+    background: var(--bg-paper);
+    border: 2px solid var(--gold-bronze);
+    border-radius: 14px;
+    max-width: 680px;
+    width: 100%;
+    max-height: 90vh;
+    overflow-y: auto;
+    padding: 22px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  }
+
+  .form-row { margin-bottom: 12px; }
+  .form-row label { display: block; font-weight: 700; margin-bottom: 4px; font-size: 0.9em; }
+
+  .prayer-text {
+    background: var(--bg-warm);
+    border-left: 4px solid var(--red-lacquer);
+    padding: 14px 16px;
+    border-radius: 0 8px 8px 0;
+    white-space: pre-line;
+    font-style: italic;
+  }
+
+  footer {
+    background: #2B1E16;
+    color: #FDE68A;
+    text-align: center;
+    padding: 24px 16px;
+    font-size: 0.9em;
+    border-top: 4px solid var(--gold-bronze);
+  }
+
+  @media print {
+    .utility-bar, .main-nav, .filter-bar, .btn, .kinship-box { display: none !important; }
+    body { background: #FFF; font-size: 13pt; }
+    .tab-section { display: block !important; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero-header">
+  <!-- Họa tiết Trống Đồng Đông Sơn Vector siêu nhẹ -->
+  <svg class="dong-son-bg" viewBox="0 0 200 200" fill="none" stroke="#FDE68A" stroke-width="1.5">
+    <circle cx="100" cy="100" r="95"/>
+    <circle cx="100" cy="100" r="82" stroke-dasharray="4 3"/>
+    <circle cx="100" cy="100" r="65"/>
+    <circle cx="100" cy="100" r="45" stroke-dasharray="6 4"/>
+    <circle cx="100" cy="100" r="22"/>
+    <polygon points="100,72 106,92 126,92 110,104 116,124 100,112 84,124 90,104 74,92 94,92" fill="#FDE68A"/>
+  </svg>
+  <div class="hero-sub">Cây Có Cội, Nước Có Nguồn &bull; Chim Có Tổ, Người Có Tông</div>
+  <h1 class="hero-title">GIA PHẢ DÒNG HỌ NGUYỄN VĂN</h1>
+  <p class="hero-desc">Chính quán: Làng Niệm (Đông Tiến, Triệu Sơn) &bull; Từ đường: Thôn Mai Chữ, Xóm Liêm Chính, Xã Đông Nam, Huyện Đông Sơn, Tỉnh Thanh Hóa</p>
+</header>
+
+<!-- Thanh công cụ hỗ trợ Người cao tuổi & Ban Trị Sự -->
+<div class="utility-bar">
+  <div class="util-group">
+    <span style="font-weight:700; font-size:0.88em;">Cỡ chữ:</span>
+    <button class="btn" id="font-18" onclick="changeFont(18)">A</button>
+    <button class="btn active-font" id="font-21" onclick="changeFont(21)">A+</button>
+    <button class="btn" id="font-24" onclick="changeFont(24)">A++</button>
+    <button class="btn btn-gold" onclick="stopSpeech()" title="Dừng giọng đọc">⏹ Dừng đọc</button>
+  </div>
+  <div class="util-group">
+    <a class="btn btn-zalo" href="https://zalo.me/0335940968" target="_blank" rel="noopener">💬 Góp ý Zalo Thư ký</a>
+    <button class="btn" onclick="window.print()">🖨️ In Gia Phả</button>
+    <button class="btn" id="adminToggleBtn" onclick="openAdminModal()">🔒 Trưởng họ / Admin</button>
+  </div>
+</div>
+
+<!-- Menu 3 Phân Hệ Hạt Nhân -->
+<nav class="main-nav">
+  <button class="nav-tab active" onclick="switchTab('phaky', this)">📜 1. Phả Ký &amp; Sổ Giỗ</button>
+  <button class="nav-tab" onclick="switchTab('phado', this)">🌳 2. Phả Đồ (Cây Thế Hệ)</button>
+  <button class="nav-tab" onclick="switchTab('phahe', this)">🏛️ 3. Phả Hệ &amp; Lăng Mộ</button>
+</nav>
+
+<main class="container">
+
+  <!-- Thống kê nhanh -->
+  <div class="stats-grid" id="statsGrid"></div>
+
+  <!-- Thanh điều khiển Admin (Chỉ hiện khi đăng nhập) -->
+  <div class="card" id="adminPanel" style="display:none; border-top-color:#15693A; background:#F0FDF4;">
+    <div class="card-title" style="color:#15693A;">
+      <span>🛡️ CHẾ ĐỘ QUẢN TRỊ BAN TRỊ SỰ / TRƯỞNG HỌ</span>
+      <button class="btn" onclick="logoutAdmin()">Thoát Admin</button>
+    </div>
+    <p style="margin-top:0; font-size:0.92em;">Anh có thể thêm thành viên mới sinh, sửa thông tin nhập nhầm, nối nhánh Đời 5–6 hoặc xuất file sao lưu dữ liệu chuẩn JSON để đồng bộ lại vào NotebookLM.</p>
+    <div class="util-group">
+      <button class="btn btn-admin-on" onclick="openMemberForm(null)">➕ Thêm thành viên mới</button>
+      <button class="btn btn-gold" onclick="exportJSON()">💾 Tải file dữ liệu (.JSON)</button>
+      <button class="btn" onclick="document.getElementById('importJsonInput').click()">📂 Nạp file (.JSON)</button>
+      <input type="file" id="importJsonInput" accept=".json" style="display:none" onchange="importJSON(event)">
+      <button class="btn" onclick="resetToOriginalData()" style="color:#8B1A1A;">↺ Khôi phục dữ liệu gốc</button>
+    </div>
+  </div>
+
+  <!-- ==================== PHÂN HỆ 1: PHẢ KÝ & SỔ GIỖ ==================== -->
+  <section id="tab-phaky" class="tab-section active">
+    <div class="card">
+      <div class="card-title">
+        <span>📖 Lịch Sử Thiên Di &amp; Khởi Lập Gia Phả</span>
+        <button class="btn btn-gold" onclick="speakText('phaky-content')">🔊 Nghe đọc Phả ký</button>
+      </div>
+      <div id="phaky-content">
+        <p><strong>1. Bối cảnh thiên di &amp; hoàn cảnh biên soạn (Ngày 15/12 năm Giáp Tuất — 15/01/1995):</strong><br>
+        Tổ tiên dòng họ Nguyễn Văn vốn có chính quán gốc tại <strong>Làng Niệm, huyện Đông Công xưa</strong> (nay là xã Đông Tiến, huyện Triệu Sơn, tỉnh Thanh Hóa). Dưới thời phong kiến thực dân tao loạn, tổ tiên đã thiên di về vùng đất <strong>Đông Nam (huyện Đông Sơn)</strong> khai khẩn lập nghiệp. Trận đại hồng thủy năm Bính Dần (1926) làm 95% số hộ trong làng ngập lụt, khiến bản gia phả cổ xưa bị hư nát, thất truyền. Để con cháu muôn đời sau không quên nguồn cội, cụ <strong>Nguyễn Văn Chẩm</strong> (Đời 5, nguyên Phó Chủ tịch huyện Đông Sơn) cùng các bậc cao niên đã khảo cứu bia mộ và hồi tưởng để tái lập cuốn phả ký này.</p>
+
+        <p><strong>2. Lịch sử chuyển rước bài vị Tổ và thay đổi Trưởng tộc:</strong><br>
+        Thủy tổ <strong>Cụ Tự Phúc Hào</strong> sinh hai cành: <em>Tự Phúc Liêm</em> (Trưởng) và <em>Tự Phúc Cần</em> (Thứ). Dòng Cụ Liêm thất truyền sau thế hệ con trai duy nhất. Đến đời thứ 3, Cụ Trưởng họ <strong>Nguyễn Văn Dững</strong> (vợ là cụ Lê Thị Nhường) chỉ sinh được một con gái là bà <strong>Nguyễn Thị Nậy</strong> (chồng là ông Lê Trọng Nhuận). Bà Nậy ở vậy phụng dưỡng cha già và thờ tổ tiên tại tư gia nhà chồng trọn đời. Sau khi bà Nậy qua đời, toàn thể dòng họ đã trang trọng tổ chức rước bài vị Tổ tiên về cành thứ do <strong>Cụ Nguyễn Văn Cang (Tự Phúc Cang)</strong> làm Trưởng họ, định cư tại xóm Ngoại (nay là xóm Liêm Chính, xã Đông Nam).</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">
+        <span>⚖️ Tộc Ước &amp; Quy Định Dòng Họ (Ban hành ngày 20/02/1996)</span>
+        <button class="btn btn-gold" onclick="speakText('tocuoc-content')">🔊 Nghe đọc Tộc ước</button>
+      </div>
+      <div id="tocuoc-content">
+        <p>Do Trưởng họ đương nhiệm <strong>Ông Nguyễn Văn Khoát</strong> ban hành tại Từ đường Mai Chữ:</p>
+        <ul>
+          <li><strong>Đại lễ Giỗ Tổ thường niên:</strong> Thống nhất lấy ngày <strong>15 tháng 12 Âm lịch</strong> hàng năm làm ngày Giỗ Tổ dòng họ.</li>
+          <li><strong>Nghĩa vụ đóng góp &amp; Quỹ họ:</strong> Toàn thể đinh nam và các hộ gia đình đóng góp tiền Giỗ Tổ; duy trì <strong>Quỹ Khuyến học</strong> (khen thưởng con cháu đỗ đạt) và <strong>Quỹ Tương tế</strong> thăm hỏi ốm đau, hoạn nạn.</li>
+          <li><strong>Phúng viếng hiếu sự:</strong> Khi trong họ có người qua đời, hương vàng riêng, tiền phúng viếng điều chỉnh phù hợp theo từng thời kỳ.</li>
+          <li><strong>Trách nhiệm nội – ngoại:</strong> Con cháu họ ngoại tham gia sinh hoạt theo tinh thần tự nguyện; con cháu nội tộc dù đi đâu, ở đâu đều có bổn phận giữ gìn gia phong và chung tay xây dựng Từ đường dòng họ.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">
+        <span>🕯️ Sổ Giỗ Họ &amp; Niên Biểu Tiền Nhân</span>
+      </div>
+      <p style="font-size:0.92em; color:var(--text-muted);">Danh sách tự động tổng hợp các bậc tiền nhân đã tạ thế từ dữ liệu phả hệ (Admin có thể cập nhật bổ sung ngày/tháng Âm lịch chi tiết):</p>
+      <div id="memorialList" class="member-grid"></div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">
+        <span>🙏 Văn Khấn Cổ Truyền Ngày Giỗ Tổ (15/12 Âm Lịch)</span>
+        <button class="btn btn-gold" onclick="speakText('vankhan-content')">🔊 Nghe đọc Văn khấn</button>
+      </div>
+      <div id="vankhan-content" class="prayer-text">Nam mô A Di Đà Phật! (3 lần)
+Con lạy chín phương Trời, mười phương Chư Phật, Chư Phật mười phương.
+Con kính lạy Hoàng Thiên Hậu Thổ chư vị Tôn thần.
+Con kính lạy Ngài Bản cảnh Thành hoàng, các Ngài Thổ địa, Long mạch Tôn thần.
+Con kính lạy Thủy tổ dòng họ Nguyễn Văn: Cụ Tự Phúc Hào, cùng các bậc Tiền tổ, Cao tằng Tổ khảo, Cao tằng Tổ tỷ, Bá thúc huynh đệ, Cô di tỷ muội nội ngoại toàn tộc.
+
+Hôm nay là ngày 15 tháng Chạp (tháng 12) Âm lịch, nhân ngày Đại lễ Giỗ Tổ dòng họ Nguyễn Văn tại thôn Mai Chữ, xóm Liêm Chính, xã Đông Nam, huyện Đông Sơn, tỉnh Thanh Hóa.
+Toàn thể con cháu nội ngoại chúng con thành tâm sửa biện hương hoa, lễ vật, trà quả, thắp nén tâm hương dâng lên trước án.
+Cúi xin Tiên tổ chứng giám lòng thành, phù hộ độ trì cho toàn thể dòng họ Nguyễn Văn trên dưới thuận hòa, sức khỏe bình an, con cháu học hành đỗ đạt, gia đạo hưng long, vạn sự tốt lành.
+
+Chúng con lễ bạc tâm thành, trước án kính lễ, cúi xin được phù hộ độ trì.
+Nam mô A Di Đà Phật! (3 lần)</div>
+    </div>
+  </section>
+
+  <!-- ==================== PHÂN HỆ 2: PHẢ ĐỒ (CÂY THẾ HỆ) ==================== -->
+  <section id="tab-phado" class="tab-section">
+    <!-- Công cụ tính vai vế xưng hô tự động -->
+    <div class="kinship-box">
+      <strong style="color:var(--red-lacquer); font-size:1.05em;">🧭 Tra Cứu Vai Vế &amp; Cách Xưng Hô Tự Động</strong>
+      <div class="kinship-grid">
+        <select id="personASelect"></select>
+        <select id="personBSelect"></select>
+        <button class="btn btn-primary" onclick="calculateKinship()">Xem cách gọi</button>
+      </div>
+      <div id="kinshipResult" style="margin-top:10px; font-weight:700; color:#1E3A8A;"></div>
+    </div>
+
+    <!-- Bộ lọc mở rộng 20-40 đời -->
+    <div class="filter-bar">
+      <input type="text" id="treeSearchInput" placeholder="🔍 Gõ tên hoặc tên tự để tìm nhanh trên cây..." oninput="renderTree()">
+      <select id="genRangeFilter" onchange="renderTree()">
+        <option value="all">Tất cả các đời (1 – 40)</option>
+        <option value="1-5">Đời 1 – Đời 5 (Tiền nhân)</option>
+        <option value="5-8">Đời 5 – Đời 8 (Đương đại)</option>
+        <option value="9-20">Đời 9 – Đời 20 (Mở rộng)</option>
+        <option value="21-40">Đời 21 – Đời 40 (Hậu thế)</option>
+      </select>
+      <select id="branchFilter" onchange="renderTree()">
+        <option value="all">Tất cả Chi / Nhánh</option>
+        <option value="Phân chi 2">Phân chi 2 (Cụ Chẩm)</option>
+        <option value="Trưởng họ">Nhánh Trưởng họ</option>
+        <option value="Nhánh B">Chi Thứ - Nhánh B</option>
+      </select>
+      <div class="util-group">
+        <button class="btn" onclick="expandAllNodes(true)">➕ Mở hết</button>
+        <button class="btn" onclick="expandAllNodes(false)">➖ Thu gọn</button>
+      </div>
+    </div>
+
+    <div class="tree-wrapper">
+      <p style="margin-top:0; font-size:0.88em; color:var(--text-muted);">
+        💡 Bấm nút <strong>[+] / [-]</strong> để mở rộng hoặc thu gọn từng nhánh (hỗ trợ mở rộng vô hạn lên 30–40 đời). Các thẻ có viền cam là điểm khuyết cha Đời 5 đang chờ Ban Trị Sự nối nhánh.
+      </p>
+      <div id="familyTreeContainer"></div>
+    </div>
+  </section>
+
+  <!-- ==================== PHÂN HỆ 3: PHẢ HỆ CHI TIẾT & LĂNG MỘ ==================== -->
+  <section id="tab-phahe" class="tab-section">
+    <!-- Không gian thờ tự & Bản đồ Google Maps -->
+    <div class="card">
+      <div class="card-title">
+        <span>🏛️ Không Gian Thờ Tự &amp; Bản Đồ Lăng Mộ Tổ</span>
+      </div>
+      <div class="member-grid">
+        <div class="member-card" style="background:var(--bg-warm);">
+          <div>
+            <span class="badge badge-gen">Đất Tổ Định Cư</span>
+            <h3 style="margin:6px 0;">Từ Đường &amp; Xóm Liêm Chính</h3>
+            <p style="margin:4px 0; font-size:0.92em;">Thôn Mai Chữ, xóm Liêm Chính (Xóm Ngoại cũ), xã Đông Nam, huyện Đông Sơn, tỉnh Thanh Hóa.</p>
+          </div>
+          <a class="btn btn-primary" href="https://www.google.com/maps/search/?api=1&query=Đông+Nam,+Đông+Sơn,+Thanh+Hóa" target="_blank" rel="noopener">🗺️ Mở Google Maps Chỉ Đường</a>
+        </div>
+
+        <div class="member-card" style="background:var(--bg-warm);">
+          <div>
+            <span class="badge badge-gen">Khu Lăng Mộ Tập Trung</span>
+            <h3 style="margin:6px 0;">Nghĩa Địa Mã Lường</h3>
+            <p style="margin:4px 0; font-size:0.92em;">Nơi an táng Cụ Nguyễn Văn Chẩm (1997), Cụ bà Lê Thị Cai (2019), Cụ Nguyễn Văn Diệp, Cụ bà Lê Thị Lớ, Ông Nguyễn Văn Quyến, Ông Nguyễn Văn Hoan.</p>
+          </div>
+          <a class="btn btn-primary" href="https://www.google.com/maps/search/?api=1&query=Mai+Chữ,+Đông+Nam,+Đông+Sơn,+Thanh+Hóa" target="_blank" rel="noopener">📍 Chỉ Đường GPS Tới Khu Mộ</a>
+        </div>
+
+        <div class="member-card" style="background:var(--bg-warm);">
+          <div>
+            <span class="badge badge-deceased">Mộ Phần Tại Hà Nội</span>
+            <h3 style="margin:6px 0;">Chùa Tiên, Hà Nội</h3>
+            <p style="margin:4px 0; font-size:0.92em;">Nơi an táng Ông Nguyễn Văn Độ (Đời 6, sinh năm 1962, mãn phần năm 1968).</p>
+          </div>
+          <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Chùa+Tiên,+Hà+Nội" target="_blank" rel="noopener">🗺️ Xem Vị Trí Bản Đồ</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Danh bạ nhân sự chi tiết -->
+    <div class="card">
+      <div class="card-title">
+        <span>📋 Danh Bạ Hồ Sơ Toàn Thể Thành Viên (88 Vị)</span>
+      </div>
+      <div class="filter-bar" style="grid-template-columns: 2fr 1fr 1fr;">
+        <input type="text" id="listSearchInput" placeholder="🔍 Tìm theo tên, phối ngẫu, năm sinh, ghi chú tra soát..." oninput="renderDirectory()">
+        <select id="listGenFilter" onchange="renderDirectory()">
+          <option value="all">Tất cả các đời</option>
+        </select>
+        <select id="listStatusFilter" onchange="renderDirectory()">
+          <option value="all">Tất cả trạng thái</option>
+          <option value="living">Còn sống</option>
+          <option value="deceased">Đã tạ thế</option>
+          <option value="warning">Cần tra soát (Khuyết nhánh)</option>
+        </select>
+      </div>
+      <div id="directoryGrid" class="member-grid"></div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <strong>GIA PHẢ SỐ TRUYỀN ĐỜI DÒNG HỌ NGUYỄN VĂN — ĐÔNG SƠN, THANH HÓA</strong><br>
+  Khởi lập: Cụ Nguyễn Văn Chẩm (1995) &bull; Trưởng họ: Ông Nguyễn Văn Khoát &bull; Thư ký số hóa: Nguyễn Tiến Túc (Zalo: 0335.940.968)<br>
+  <span style="opacity:0.8; font-size:0.85em;">Dữ liệu được bảo vệ quyền riêng tư, lưu trữ mở chuẩn JSON sẵn sàng kế thừa 40 đời.</span>
+</footer>
+
+<!-- Modal Đăng nhập Admin -->
+<div class="modal-backdrop" id="adminLoginModal">
+  <div class="modal-box" style="max-width:420px;">
+    <h3 style="margin-top:0; color:var(--red-lacquer);">🔐 Đăng Nhập Ban Trị Sự / Trưởng Họ</h3>
+    <p style="font-size:0.9em;">Nhập mật khẩu quản trị để thêm thành viên mới, sửa thông tin hoặc xuất file sao lưu dữ liệu (Mật khẩu mặc định: <code>123456</code>).</p>
+    <div class="form-row">
+      <input type="password" id="adminPasswordInput" placeholder="Nhập mật khẩu quản trị..." onkeydown="if(event.key==='Enter') verifyAdmin()">
+    </div>
+    <div class="util-group" style="justify-content:flex-end;">
+      <button class="btn" onclick="closeModal('adminLoginModal')">Đóng</button>
+      <button class="btn btn-primary" onclick="verifyAdmin()">Đăng nhập</button>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Xem Chi Tiết Thành Viên -->
+<div class="modal-backdrop" id="detailModal">
+  <div class="modal-box" id="detailModalBody"></div>
+</div>
+
+<!-- Modal Thêm / Sửa Thành Viên (Dành cho Admin) -->
+<div class="modal-backdrop" id="editModal">
+  <div class="modal-box">
+    <h3 id="editModalTitle" style="margin-top:0; color:var(--red-lacquer);">✏️ Cập Nhật Hồ Sơ Thành Viên</h3>
+    <input type="hidden" id="editMemberId">
+    <div class="form-row">
+      <label>Họ và Tên (Tên húy):</label>
+      <input type="text" id="fFullName" required>
+    </div>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px;">
+      <div class="form-row">
+        <label>Tên tự / Tên hiệu:</label>
+        <input type="text" id="fCourtesyName">
+      </div>
+      <div class="form-row">
+        <label>Đời thứ (1 – 40):</label>
+        <input type="text" id="fGeneration" value="8">
+      </div>
+    </div>
+    <div class="form-row">
+      <label>Thuộc Cha / Mẹ trực hệ (Nối nhánh cây):</label>
+      <select id="fParentId"></select>
+    </div>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px;">
+      <div class="form-row">
+        <label>Chi phái / Nhánh:</label>
+        <input type="text" id="fBranch" value="Phân chi 2 - Nhánh A">
+      </div>
+      <div class="form-row">
+        <label>Vợ / Chồng (Phối ngẫu):</label>
+        <input type="text" id="fSpouse">
+      </div>
+    </div>
+    <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:10px;">
+      <div class="form-row">
+        <label>Năm sinh:</label>
+        <input type="text" id="fBirthYear" placeholder="VD: 1980">
+      </div>
+      <div class="form-row">
+        <label>Trạng thái:</label>
+        <select id="fStatus" onchange="toggleDeathFields()">
+          <option value="living">Còn sống</option>
+          <option value="deceased">Đã tạ thế</option>
+        </select>
+      </div>
+      <div class="form-row" id="deathDateRow">
+        <label>Ngày giỗ / Năm mất (ÂL):</label>
+        <input type="text" id="fDeathDate" placeholder="VD: 15/12">
+      </div>
+    </div>
+    <div class="form-row" id="graveRow">
+      <label>Nơi an táng (Mộ phần):</label>
+      <input type="text" id="fGraveLocation" placeholder="VD: Nghĩa địa Mã Lường">
+    </div>
+    <div class="form-row">
+      <label>Tiểu sử, công danh &amp; ghi chú:</label>
+      <textarea id="fBiography" rows="4"></textarea>
+    </div>
+    <div class="util-group" style="justify-content:flex-end;">
+      <button class="btn" onclick="closeModal('editModal')">Hủy bỏ</button>
+      <button class="btn btn-admin-on" onclick="saveMemberForm()">💾 Lưu thông tin</button>
+    </div>
+  </div>
+</div>
+
+<script>
+const STORAGE_DATA_KEY = 'giapha_nguyen_van_v1_data';
+const FONT_SIZE_KEY = 'giapha_nguyen_van_fontsize';
+const ADMIN_PASS = '123456';
+
+const INITIAL_MEMBERS = [
+  {
+    "id": "D1_01",
+    "parentId": null,
+    "generation": 1,
+    "branch": "Thủy Tổ",
+    "fullName": "Nguyễn Văn Hào",
+    "courtesyName": "Tự Phúc Hào",
+    "spouse": null,
+    "birthYear": null,
+    "status": "deceased",
+    "lunarDeathDate": "15/12",
+    "graveLocation": "Khu lăng mộ tổ, Đông Nam, Đông Sơn, Thanh Hóa",
+    "graveCoords": "19.7845, 105.7182",
+    "photoUrl": null,
+    "biography": "Thủy tổ / Sơ tổ dòng họ Nguyễn Văn tại Đông Sơn, Thanh Hóa. Chính quán gốc tại Làng Niệm, huyện Đông Công xưa (nay là xã Đông Tiến, huyện Triệu Sơn, Thanh Hóa). Sinh được 2 con trai là Tự Phúc Liêm (anh) và Tự Phúc Cần (em). (Tra soát chung về cách đánh số đời: Các trang tiểu sử 40, 46, 52–57, 100–140 thống nhất đánh số từ Thủy tổ Tự Phúc Hào là Đời 1 đến thế hệ chắt hiện tại là Đời 8. Riêng các trang phả đồ 31, 33, 34, 36, 37 có chỗ ghi Đ.2–Đ.5 tính từ cụ Cang hoặc ghi Đ.15, Đ.16, Đ.17 tính theo đại tộc bên ngoài)."
+  },
+  {
+    "id": "D2_01",
+    "parentId": "D1_01",
+    "generation": 2,
+    "branch": "Chi Trưởng (Tiền gia phả)",
+    "fullName": "Nguyễn Văn Liêm",
+    "courtesyName": "Tự Phúc Liêm",
+    "spouse": null,
+    "birthYear": null,
+    "status": "deceased",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con trưởng của Thủy tổ Tự Phúc Hào. Sinh được 1 con trai (chưa rõ tên), sau đó gia phả thất truyền thông tin dòng này."
+  },
+  {
+    "id": "D2_02",
+    "parentId": "D1_01",
+    "generation": 2,
+    "branch": "Chi Thứ (Tiền gia phả)",
+    "fullName": "Nguyễn Văn Cần",
+    "courtesyName": "Tự Phúc Cần",
+    "spouse": null,
+    "birthYear": null,
+    "status": "deceased",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con thứ của Thủy tổ Tự Phúc Hào. Sinh được 7 người con (5 gái, 2 trai): Bà Cả, Bà Hai, Bà Tư (hoặc Sống), Ông Xăng, Cụ Nguyễn Văn Dững, Cụ Tự Phúc Kính, Cụ Tự Phúc Cát (Nguyễn Văn Thoa)."
+  },
+  {
+    "id": "D3_01",
+    "parentId": "D2_01",
+    "generation": 3,
+    "branch": "Chi Trưởng",
+    "fullName": "Khuyết danh (Con trai cụ Liêm)",
+    "courtesyName": null,
+    "spouse": null,
+    "birthYear": null,
+    "status": "deceased",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con trai duy nhất của cụ Tự Phúc Liêm, gia phả cũ thất lạc chưa ghi rõ tên tuổi."
+  },
+  {
+    "id": "D3_02",
+    "parentId": "D2_02",
+    "generation": 3,
+    "branch": "Chi Thứ",
+    "fullName": "Bà Cả",
+    "courtesyName": null,
+    "spouse": null,
+    "birthYear": null,
+    "status": "deceased",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con gái cụ Tự Phúc Cần. Sinh 1 con gái là bà Quỳnh."
+  },
+  {
+    "id": "D3_03",
+    "parentId": "D2_02",
+    "generation": 3,
+    "branch": "Chi Thứ",
+    "fullName": "Bà Hai",
+    "courtesyName": null,
+    "spouse": null,
+    "birthYear": null,
+    "status": "deceased",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con gái cụ Tự Phúc Cần. Sinh 1 con gái là Lê Thị Phấn -> sinh bà Đính -> sinh ông Hiệp, Đại, Vinh, Tây."
+  },
+  {
+    "id": "D3_04",
+    "parentId": "D2_02",
+    "generation": 3,
+    "branch": "Chi Thứ",
+    "fullName": "Bà Tư (hoặc Sống)",
+    "courtesyName": null,
+    "spouse": "Người Phú Yên",
+    "birthYear": null,
+    "status": "deceased",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con gái cụ Tự Phúc Cần. Lấy chồng người Phú Yên, sau di cư xuống Lạc Xá, Quảng Long."
+  },
+  {
+    "id": "D3_05",
+    "parentId": "D2_02",
+    "generation": 3,
+    "branch": "Chi Thứ",
+    "fullName": "Ông Xăng",
+    "courtesyName": null,
+    "spouse": null,
+    "birthYear": null,
+    "status": "deceased",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con cụ Tự Phúc Cần. Sinh 1 con gái rồi mất cả nhà."
+  },
+  {
+    "id": "D3_06",
+    "parentId": "D2_02",
+    "generation": 3,
+    "branch": "Chi Trưởng tộc (Cũ)",
+    "fullName": "Nguyễn Văn Dững",
+    "courtesyName": "Tự Phúc Dững",
+    "spouse": "Lê Thị Nhường",
+    "birthYear": null,
+    "status": "deceased",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Trưởng họ đời thứ 3. Vợ là cụ Lê Thị Nhường, chỉ sinh được 1 con gái là Nguyễn Thị Nậy. Vì không có con trai nối dõi nên con gái và con rể thờ phụng tổ tiên cho đến hết đời bà, sau đó dòng họ chuyển rước bài vị tổ về cành thứ."
+  },
+  {
+    "id": "D3_07",
+    "parentId": "D2_02",
+    "generation": 3,
+    "branch": "Chi Thứ",
+    "fullName": "Nguyễn Văn Kính",
+    "courtesyName": "Tự Phúc Kính",
+    "spouse": null,
+    "birthYear": null,
+    "status": "deceased",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con cụ Tự Phúc Cần. Sinh 2 gái, 1 trai (Bà Quân lấy chồng Đa Phú sinh Phùng Phúc Cạng; Bà Bộ tên Nguyễn Thị Tài lấy ông Lê Đình Núp sinh Lê Đình Bộ, Lê Thị Thao, Lê Thị Dài, Lê Thị Ngoại)."
+  },
+  {
+    "id": "D3_08",
+    "parentId": "D2_02",
+    "generation": 3,
+    "branch": "Cành Thứ (Trưởng tộc kế truyền)",
+    "fullName": "Nguyễn Văn Cang",
+    "courtesyName": "Tự Phúc Cang",
+    "spouse": "Nguyễn Thị Nghị",
+    "birthYear": null,
+    "status": "deceased",
+    "lunarDeathDate": null,
+    "graveLocation": "Xóm Liêm Chính, Đông Nam, Đông Sơn, Thanh Hóa",
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Trưởng họ cành thứ, định cư tại xóm Ngoại (nay là xóm Liêm Chính, xã Đông Nam). Tiếp nhận bài vị tổ tiên từ cành cụ Dững. Vợ là cụ Nguyễn Thị Nghị, sinh 4 con gái (Gia, Thái, Nhuận, Ý) và 1 con trai Nguyễn V. Thừa mất sớm chưa có vợ. (Tra soát: Cần xác minh rõ cụ Cang là con trực tiếp của cụ Tự Phúc Cần hay cụ Tự Phúc Kính; trong tư liệu cụ Cang được ghi nhận là anh cụ Nguyễn Văn Thoa)."
+  },
+  {
+    "id": "D3_09",
+    "parentId": "D2_02",
+    "generation": 3,
+    "branch": "Chi Thứ - Nhánh Cụ Thoa",
+    "fullName": "Nguyễn Văn Thoa",
+    "courtesyName": "Tự Phúc Cát",
+    "spouse": "Bà cả Tri Tự (Lê Thị Sử), Bà hai Lê Thị Dòng",
+    "birthYear": null,
+    "status": "deceased",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Em cụ Nguyễn Văn Cang. Có 2 người vợ: Bà cả Tri Tự (Lê Thị Sử) sinh 2 con: Ông Chẩm (mất sớm) và Bà Đầm (mất trẻ); Bà hai Lê Thị Dòng sinh 2 con trai Đời 4 là Nguyễn Văn Lâm và Nguyễn Văn Cẩm. (Tra soát: Sổ ghi cụ là con thứ 7 của cụ Tự Phúc Cần, đồng thời ghi là em cụ Cang; sang mục Đời 3 được xếp cùng thế hệ với cụ Cang)."
+  },
+  {
+    "id": "D4_01",
+    "parentId": "D3_06",
+    "generation": 4,
+    "branch": "Chi Trưởng họ (Cũ)",
+    "fullName": "Nguyễn Thị Nậy",
+    "courtesyName": null,
+    "spouse": "Lê Trọng Nhuận",
+    "birthYear": null,
+    "status": "deceased",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con gái duy nhất của Cụ Trưởng họ Nguyễn Văn Dững và cụ Lê Thị Nhường. Chồng là ông Lê Trọng Nhuận, sinh 3 con: Đỗ Thị Gấm, liệt sĩ Lê Trọng Xá, Lê Trọng Phú. Ở vậy nuôi cha, thờ phụng tổ tiên tại nhà chồng trọn nghĩa hiếu đạo."
+  },
+  {
+    "id": "D4_02",
+    "parentId": "D3_08",
+    "generation": 4,
+    "branch": "Cành Thứ (Trưởng họ)",
+    "fullName": "Nguyễn Thị Gia",
+    "courtesyName": null,
+    "spouse": "Lê Đình Canh",
+    "birthYear": null,
+    "status": "deceased",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con gái cụ Nguyễn Văn Cang và cụ Nguyễn Thị Nghị. Chồng là Lê Đình Canh."
+  },
+  {
+    "id": "D4_03",
+    "parentId": "D3_08",
+    "generation": 4,
+    "branch": "Cành Thứ (Trưởng họ)",
+    "fullName": "Nguyễn Thị Thái",
+    "courtesyName": null,
+    "spouse": "Đỗ Duy Giáp",
+    "birthYear": null,
+    "status": "deceased",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con gái cụ Nguyễn Văn Cang và cụ Nguyễn Thị Nghị. Chồng là Đỗ Duy Giáp."
+  },
+  {
+    "id": "D4_04",
+    "parentId": "D3_08",
+    "generation": 4,
+    "branch": "Cành Thứ (Trưởng họ)",
+    "fullName": "Nguyễn Thị Nhuận",
+    "courtesyName": null,
+    "spouse": "Lê Xuân Đằng",
+    "birthYear": null,
+    "status": "deceased",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con gái cụ Nguyễn Văn Cang và cụ Nguyễn Thị Nghị. Chồng là Lê Xuân Đằng."
+  },
+  {
+    "id": "D4_05",
+    "parentId": "D3_08",
+    "generation": 4,
+    "branch": "Cành Thứ (Trưởng họ)",
+    "fullName": "Nguyễn Thị Ý",
+    "courtesyName": null,
+    "spouse": "Lê Duy Tính",
+    "birthYear": null,
+    "status": "deceased",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con gái cụ Nguyễn Văn Cang và cụ Nguyễn Thị Nghị. Chồng là Lê Duy Tính."
+  },
+  {
+    "id": "D4_06",
+    "parentId": "D3_08",
+    "generation": 4,
+    "branch": "Cành Thứ (Trưởng họ)",
+    "fullName": "Nguyễn Văn Thừa",
+    "courtesyName": null,
+    "spouse": null,
+    "birthYear": null,
+    "status": "deceased",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con trai cụ Nguyễn Văn Cang, mất sớm khi chưa lập gia đình (Ghi chú trang 34)."
+  },
+  {
+    "id": "D4_07",
+    "parentId": "D3_09",
+    "generation": 4,
+    "branch": "Chi Thứ - Nhánh Cụ Thoa",
+    "fullName": "Nguyễn Văn Chẩm (Tiền bối)",
+    "courtesyName": null,
+    "spouse": null,
+    "birthYear": null,
+    "status": "deceased",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con cụ Nguyễn Văn Thoa với bà cả Tri Tự (Lê Thị Sử). Mất sớm; sinh 1 con gái là Nguyễn Thị Bịn (lấy ông Nguyễn Văn Bảy)."
+  },
+  {
+    "id": "D4_08",
+    "parentId": "D3_09",
+    "generation": 4,
+    "branch": "Chi Thứ - Nhánh Cụ Thoa",
+    "fullName": "Bà Đầm",
+    "courtesyName": null,
+    "spouse": null,
+    "birthYear": null,
+    "status": "deceased",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con gái cụ Nguyễn Văn Thoa với bà cả Tri Tự (Lê Thị Sử). Mất trẻ chưa lập gia đình."
+  },
+  {
+    "id": "D4_09",
+    "parentId": "D3_09",
+    "generation": 4,
+    "branch": "Chi Thứ - Nhánh Cụ Thoa (Cành anh)",
+    "fullName": "Nguyễn Văn Lâm",
+    "courtesyName": null,
+    "spouse": "Lê Thị Sang, Lê Thị Đoan, Lê Thị Gấm",
+    "birthYear": null,
+    "status": "deceased",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con trưởng của cụ Nguyễn Văn Thoa với bà hai Lê Thị Dòng. Có 3 vợ (Lê Thị Sang, Lê Thị Đoan, Lê Thị Gấm), sinh được 3 người con Đời 5: Nguyễn Thị Du, Nguyễn Văn Tiệp, Nguyễn Văn Diệp."
+  },
+  {
+    "id": "D4_10",
+    "parentId": "D3_09",
+    "generation": 4,
+    "branch": "Chi Thứ - Nhánh Cụ Thoa (Cành em)",
+    "fullName": "Nguyễn Văn Cẩm",
+    "courtesyName": null,
+    "spouse": "Bà cả Lê Thị Thi, Bà hai Lê Thị Miễn",
+    "birthYear": null,
+    "status": "deceased",
+    "lunarDeathDate": "1927",
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con thứ của cụ Nguyễn Văn Thoa với bà hai Lê Thị Dòng. Mất năm 1927. Có 2 vợ: Cụ bà Lê Thị Thi sinh 2 con gái (Nguyễn Thị Phấn, Nguyễn Thị Tỵ); Cụ bà Lê Thị Miễn (mất năm 1968) sinh 1 con gái mất nhỏ và con trai Nguyễn Văn Chẩm (Đời 5). (Tra soát: Trang 40 chỉ ghi tên 3 đời đầu rồi nhảy sang Đời 5 Nguyễn Văn Chẩm; đối chiếu trang 32 thì cụ Nguyễn Văn Cẩm chính là Đời 4)."
+  },
+  {
+    "id": "D5_01",
+    "parentId": "D4_09",
+    "generation": 5,
+    "branch": "Chi Thứ - Nhánh cụ Lâm",
+    "fullName": "Nguyễn Thị Du",
+    "courtesyName": null,
+    "spouse": "Lê Trọng Đa",
+    "birthYear": null,
+    "status": "deceased",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con gái cụ Nguyễn Văn Lâm. Chồng là Lê Trọng Đa, sinh Lê Trọng Cường (lấy Lê Thị Mỹ) và vợ Lê Thị Điệu."
+  },
+  {
+    "id": "D5_02",
+    "parentId": "D4_09",
+    "generation": 5,
+    "branch": "Chi Thứ - Nhánh cụ Lâm",
+    "fullName": "Nguyễn Văn Tiệp",
+    "courtesyName": null,
+    "spouse": null,
+    "birthYear": null,
+    "status": "deceased",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con trai cụ Nguyễn Văn Lâm. (Tra soát: Cần đối chiếu xem có phải là thân phụ của các gia đình Đời 6 ở Nhánh B như cụ Khoát, cụ Được... hay không)."
+  },
+  {
+    "id": "D5_03",
+    "parentId": "D4_09",
+    "generation": 5,
+    "branch": "Chi Thứ - Nhánh cụ Lâm",
+    "fullName": "Nguyễn Văn Diệp",
+    "courtesyName": "Tự Phúc Diệp",
+    "spouse": "Lê Thị Lớ",
+    "birthYear": "1923",
+    "status": "deceased",
+    "lunarDeathDate": "09/08/1979",
+    "graveLocation": "Nghĩa địa Mã Lường, Đông Nam, Đông Sơn",
+    "graveCoords": "19.7845, 105.7182",
+    "photoUrl": null,
+    "biography": "Con trai cụ Nguyễn Văn Lâm. Sinh năm 1923 Âm lịch. Đảng viên Đảng Cộng sản Việt Nam, Bộ đội chống Pháp, Thường vụ Đảng ủy xã. Mãn phần ngày 09/08/1979 Âm lịch, an táng tại Nghĩa địa Mã Lường. Vợ là cụ bà Lê Thị Lớ (sinh 1922 Âm lịch, con ông Lê Đình Hoế - trang 106; mãn phần ngày 15/05 Âm lịch, an táng tại Mã Lường). (Tra soát: Trang 100 ghi bà Lê Thị Lớ mất ngày 15/5/2005, trang 106 ghi mất ngày 15/5/2003)."
+  },
+  {
+    "id": "D5_04",
+    "parentId": "D4_10",
+    "generation": 5,
+    "branch": "Phân chi 2 (Người lập phả)",
+    "fullName": "Nguyễn Văn Chẩm",
+    "courtesyName": "Tự Phúc Chẩm / Hiệu Lương",
+    "spouse": "Lê Thị Cai",
+    "birthYear": null,
+    "status": "deceased",
+    "lunarDeathDate": "1997",
+    "graveLocation": "Nghĩa địa Mã Lường, Đông Nam, Đông Sơn",
+    "graveCoords": "19.7845, 105.7182",
+    "photoUrl": null,
+    "biography": "Con cụ Nguyễn Văn Cẩm và cụ bà Lê Thị Miễn. Quê quán: Thôn Mai Chữ, xã Đông Nam, Đông Sơn, Thanh Hóa. Cán bộ công chức, nguyên Phó Chủ tịch huyện Đông Sơn. Người có công lớn khởi xướng và ghi chép lại bộ Gia phả dòng họ vào ngày 15/12 năm Giáp Tuất (15/01/1995). Mãn phần năm 1997 Âm lịch, an táng tại Nghĩa địa Mã Lường. Vợ là cụ bà Lê Thị Cai (Hiệu Lương, con ông Thọ và bà Cảng; mãn phần năm 2019 Âm lịch, an táng tại Mã Lường). Hai cụ sinh được 7 người con Đời 6. (Tra soát: Trang 36 ghi sinh 7 con nhưng liệt kê 6 tên, trang 54 bổ sung đủ người con thứ 7 là bà Nguyễn Thị Hoè)."
+  },
+  {
+    "id": "D5_05",
+    "parentId": "D4_10",
+    "generation": 5,
+    "branch": "Chi Thứ - Nhánh cụ Cẩm",
+    "fullName": "Nguyễn Thị Phấn",
+    "courtesyName": null,
+    "spouse": "Nguyễn Văn Tuyền",
+    "birthYear": null,
+    "status": "deceased",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con gái đầu của cụ Nguyễn Văn Cẩm với vợ cả Lê Thị Thi. Chồng là Nguyễn Văn Tuyền, sinh 4 con: Nguyễn Văn Liện, Nguyễn Văn Việt, Nguyễn Văn Sự, Nguyễn Thị Lịch."
+  },
+  {
+    "id": "D5_06",
+    "parentId": "D4_10",
+    "generation": 5,
+    "branch": "Chi Thứ - Nhánh cụ Cẩm",
+    "fullName": "Nguyễn Thị Tỵ",
+    "courtesyName": null,
+    "spouse": "Đàm Tự Do",
+    "birthYear": null,
+    "status": "deceased",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con gái thứ hai của cụ Nguyễn Văn Cẩm với vợ cả Lê Thị Thi. Chồng là Đàm Tự Do, sinh 2 con: Đàm Thị Tỵ, Đàm Tự Dự."
+  },
+  {
+    "id": "D5_07",
+    "parentId": "D4_10",
+    "generation": 5,
+    "branch": "Chi Thứ - Nhánh cụ Cẩm",
+    "fullName": "Khuyết danh (Chị gái cụ Chẩm)",
+    "courtesyName": null,
+    "spouse": null,
+    "birthYear": null,
+    "status": "deceased",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con gái đầu của cụ Nguyễn Văn Cẩm với vợ hai Lê Thị Miễn, mất khi còn nhỏ."
+  },
+  {
+    "id": "D6_01",
+    "parentId": "D5_04",
+    "generation": 6,
+    "branch": "Phân chi 2 - Nhánh A",
+    "fullName": "Nguyễn Văn Huyến",
+    "courtesyName": null,
+    "spouse": "Bùi Thị Chanh",
+    "birthYear": "1949",
+    "status": "deceased",
+    "lunarDeathDate": "03/2024",
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con trưởng của cụ Nguyễn Văn Chẩm. Sinh năm 1949 Âm lịch. Công chức, cán bộ nghỉ hưu, định cư tại TP. Nam Định. Vợ là bà Bùi Thị Chanh (quê Đông Nam, Đông Sơn). (Tra soát: Trang 52 ghi mất tháng 03/2024; trang 116 ghi mất năm 2023)."
+  },
+  {
+    "id": "D6_02",
+    "parentId": "D5_04",
+    "generation": 6,
+    "branch": "Phân chi 2 - Nhánh A",
+    "fullName": "Nguyễn Văn Quyến",
+    "courtesyName": null,
+    "spouse": "Trần Thị Phương",
+    "birthYear": "1956",
+    "status": "deceased",
+    "lunarDeathDate": null,
+    "graveLocation": "Nghĩa địa Mã Lường, Đông Nam, Đông Sơn",
+    "graveCoords": "19.7845, 105.7182",
+    "photoUrl": null,
+    "biography": "Con trai cụ Nguyễn Văn Chẩm. Sinh năm 1956 Âm lịch. Bộ đội chống Mỹ, chuyển ngành công nhân Lâm trường / Xí nghiệp xây dựng nghỉ hưu. Định cư tại Quảng Xương, Thanh Hóa. Vợ là bà Trần Thị Phương (quê Quảng Xương / Đông Nam). Đã tạ thế tại Quảng Xương, an táng tại Nghĩa địa Mã Lường."
+  },
+  {
+    "id": "D6_03",
+    "parentId": "D5_04",
+    "generation": 6,
+    "branch": "Phân chi 2 - Nhánh A",
+    "fullName": "Nguyễn Thị Tuyền",
+    "courtesyName": null,
+    "spouse": "Ông Doanh",
+    "birthYear": null,
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con gái cụ Nguyễn Văn Chẩm. Nghề nghiệp: Làm ruộng. Định cư tại Quận 9, TP. Hồ Chí Minh. Chồng là ông Doanh."
+  },
+  {
+    "id": "D6_04",
+    "parentId": "D5_04",
+    "generation": 6,
+    "branch": "Phân chi 2 - Nhánh A",
+    "fullName": "Nguyễn Văn Hán",
+    "courtesyName": null,
+    "spouse": "Lê Thị Quyết",
+    "birthYear": "1962",
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con trai cụ Nguyễn Văn Chẩm. Sinh năm 1962 Âm lịch. Cán bộ công chức xã, nguyên Chủ tịch xã Đông Nam. Định cư tại thôn Mai Chữ, xã Đông Nam. Vợ là bà Lê Thị Quyết (quê Quảng Xương / Đông Nam)."
+  },
+  {
+    "id": "D6_05",
+    "parentId": "D5_04",
+    "generation": 6,
+    "branch": "Phân chi 2 - Nhánh A",
+    "fullName": "Nguyễn Văn Hoan",
+    "courtesyName": null,
+    "spouse": "Lê Thị Vinh",
+    "birthYear": null,
+    "status": "deceased",
+    "lunarDeathDate": null,
+    "graveLocation": "Nghĩa địa Mã Lường, Đông Nam, Đông Sơn",
+    "graveCoords": "19.7845, 105.7182",
+    "photoUrl": null,
+    "biography": "Con trai cụ Nguyễn Văn Chẩm. Làm ruộng, định cư tại thôn Mai Chữ, xã Đông Nam. Vợ là bà Lê Thị Vinh (con ông Lê Trọng Vườn và bà Lê Thị Hành). Đã tạ thế tại Mai Chữ, an táng tại Nghĩa địa Mã Lường."
+  },
+  {
+    "id": "D6_06",
+    "parentId": "D5_04",
+    "generation": 6,
+    "branch": "Phân chi 2 - Nhánh A",
+    "fullName": "Nguyễn Văn Huệ",
+    "courtesyName": null,
+    "spouse": "Vũ Thị Thuý",
+    "birthYear": "1973",
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con trai cụ Nguyễn Văn Chẩm. Sinh năm 1973 Âm lịch. Cán bộ công chức nhà nước, định cư tại huyện Bù Đăng, tỉnh Bình Phước. Vợ là bà Vũ Thị Thuý."
+  },
+  {
+    "id": "D6_07",
+    "parentId": "D5_04",
+    "generation": 6,
+    "branch": "Phân chi 2 - Nhánh A",
+    "fullName": "Nguyễn Thị Hoè",
+    "courtesyName": null,
+    "spouse": "Chồng quê Hưng Yên / Hưng Quảng Xương",
+    "birthYear": null,
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con gái thứ 7 của cụ Nguyễn Văn Chẩm (trang 54). Nghề nghiệp: Làm ruộng. Chồng quê ở Hưng Yên / Hưng Quảng Xương."
+  },
+  {
+    "id": "D6_08",
+    "parentId": null,
+    "generation": 6,
+    "branch": "Cành Thứ (Trưởng họ hiện thời)",
+    "fullName": "Nguyễn Văn Khoát",
+    "courtesyName": null,
+    "spouse": "Lê Thị Nhân",
+    "birthYear": "1948",
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Trưởng họ đương nhiệm (trang 29, 34, 40, 101). Sinh ngày 15/10/1948 Âm lịch (khai sinh 1949). Đại úy Quân đội, nguyên Bí thư Đảng ủy xã về hưu. Định cư tại thôn Mai Chữ. Người ban hành Quy ước dòng họ ngày 20/02/1996. Vợ là bà Lê Thị Nhân (sinh 1949 Âm lịch, con ông Lê Trọng Thắng và bà Lê Thị Miễu, kết hôn 05/1971 - trang 107). (Tra soát: Trang 101 ghi nhầm tên vợ vào dòng Song thân; khuyết thông tin thân phụ Đời 5)."
+  },
+  {
+    "id": "D6_09",
+    "parentId": null,
+    "generation": 6,
+    "branch": "Chi Thứ - Nhánh B",
+    "fullName": "Nguyễn Văn Được",
+    "courtesyName": null,
+    "spouse": "Lê Thị Sự",
+    "birthYear": "1952",
+    "status": "deceased",
+    "lunarDeathDate": "11/2023",
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Thành viên Đời 6 (trang 34, 102). Sinh năm 1952 Âm lịch. Bộ đội chống Mỹ phục viên, làm ruộng. Mãn phần tháng 11 năm 2023 Âm lịch. Vợ là bà Lê Thị Sự (con ông Lê Đình Phú và bà Nguyễn Thị Mão - trang 108). (Tra soát: Trang 102 ghi nhầm tên vợ vào dòng Song thân; khuyết thông tin thân phụ Đời 5. Ghi chú trang 34 ghi sinh 4 con, sổ mới có tiểu sử 2 con trai)."
+  },
+  {
+    "id": "D6_10",
+    "parentId": null,
+    "generation": 6,
+    "branch": "Chi Thứ - Nhánh B",
+    "fullName": "Nguyễn Văn Đài",
+    "courtesyName": null,
+    "spouse": "Lê Thị Quế",
+    "birthYear": null,
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Thành viên Đời 6 (trang 35). Vợ là bà Lê Thị Quế. (Tra soát: Cần đối chiếu xem ông Đài ở trang 35 và ông Đại ở trang 103 là hai anh em hay cùng một người; khuyết thông tin thân phụ Đời 5)."
+  },
+  {
+    "id": "D6_11",
+    "parentId": null,
+    "generation": 6,
+    "branch": "Chi Thứ - Nhánh B",
+    "fullName": "Nguyễn Văn Đại",
+    "courtesyName": null,
+    "spouse": "Lê Thị Quế",
+    "birthYear": "1960",
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Thành viên Đời 6 (trang 103). Sinh ngày 25/06/1960 Âm lịch (CMND 1961), làm ruộng tại Mai Chữ. Vợ là bà Lê Thị Quế (sinh tháng 02/1960 Âm lịch, con ông Lê Hữu Hiệp và bà Lê Thị Viên - trang 109). (Tra soát: Trang 103 ghi nhầm tên vợ vào dòng Song thân; cần đối chiếu xem ông Đài ở trang 35 và ông Đại ở trang 103 là hai anh em hay cùng một người; khuyết thông tin thân phụ Đời 5)."
+  },
+  {
+    "id": "D6_12",
+    "parentId": null,
+    "generation": 6,
+    "branch": "Chi Thứ - Nhánh B",
+    "fullName": "Nguyễn Văn Độ",
+    "courtesyName": null,
+    "spouse": null,
+    "birthYear": "1962",
+    "status": "deceased",
+    "lunarDeathDate": "1968",
+    "graveLocation": "Chùa Tiên, Hà Nội",
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Thành viên Đời 6 (trang 35, 104). Sinh năm 1962 Âm lịch, định cư Nội Sơn, mất năm 1968, an táng tại Chùa Tiên, Hà Nội. (Tra soát: Khuyết thông tin thân phụ Đời 5)."
+  },
+  {
+    "id": "D6_13",
+    "parentId": null,
+    "generation": 6,
+    "branch": "Chi Thứ - Nhánh B",
+    "fullName": "Nguyễn Văn Tòng",
+    "courtesyName": null,
+    "spouse": "Lê Thị Bái",
+    "birthYear": "1966",
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Thành viên Đời 6 (trang 35, 105). Sinh năm 1966 Âm lịch, công nhân nghỉ Hải Phòng. Vợ là bà Lê Thị Bái (sinh 1968 Âm lịch, con ông Lê Hữu Phúc và bà Lê Thị Viên - trang 110). (Tra soát: Trang 105 ghi nhầm tên vợ vào dòng Song thân; khuyết thông tin thân phụ Đời 5)."
+  },
+  {
+    "id": "D6_14",
+    "parentId": null,
+    "generation": 6,
+    "branch": "Chi Thứ - Nhánh B",
+    "fullName": "Nguyễn Văn Tự",
+    "courtesyName": null,
+    "spouse": null,
+    "birthYear": null,
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Thành viên Đời 6 (trang 35). (Tra soát: Khuyết thông tin thân phụ Đời 5)."
+  },
+  {
+    "id": "D6_15",
+    "parentId": null,
+    "generation": 6,
+    "branch": "Chi Thứ - Nhánh B",
+    "fullName": "Nguyễn Thị Ái",
+    "courtesyName": null,
+    "spouse": "Khánh Mơn",
+    "birthYear": null,
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Thành viên Đời 6 (trang 35, 38). Chồng là ông Khánh Mơn, có 2 con: Thanh, Minh. (Tra soát: Khuyết thông tin thân phụ Đời 5)."
+  },
+  {
+    "id": "D6_16",
+    "parentId": null,
+    "generation": 6,
+    "branch": "Chi Thứ - Nhánh B",
+    "fullName": "Nguyễn Văn Trãi",
+    "courtesyName": null,
+    "spouse": null,
+    "birthYear": null,
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Thành viên Đời 6 (trang 35, 38). (Tra soát: Khuyết thông tin thân phụ Đời 5)."
+  },
+  {
+    "id": "D7_01",
+    "parentId": "D6_01",
+    "generation": 7,
+    "branch": "Phân chi 2 - Nhánh A",
+    "fullName": "Nguyễn Văn Túc",
+    "courtesyName": "Nguyễn Tiến Túc",
+    "spouse": "Phạm Thị Chung",
+    "birthYear": "1980",
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con trai ông Nguyễn Văn Huyến và bà Bùi Thị Chanh (trang 39, 128). Công chức Giáo viên THCS, định cư tại TP. Nam Định. Đảm nhiệm vai trò Admin / Thư ký số hóa gia phả dòng họ. Vợ là bà Phạm Thị Chung."
+  },
+  {
+    "id": "D7_02",
+    "parentId": "D6_01",
+    "generation": 7,
+    "branch": "Phân chi 2 - Nhánh A",
+    "fullName": "Nguyễn Thị Dung",
+    "courtesyName": null,
+    "spouse": "Duy Ninh",
+    "birthYear": null,
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con gái ông Nguyễn Văn Huyến và bà Bùi Thị Chanh (trang 36, 39). Chồng là ông Duy Ninh (có 2 con)."
+  },
+  {
+    "id": "D7_03",
+    "parentId": "D6_02",
+    "generation": 7,
+    "branch": "Phân chi 2 - Nhánh A",
+    "fullName": "Nguyễn Minh Tâm",
+    "courtesyName": null,
+    "spouse": null,
+    "birthYear": null,
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con ông Nguyễn Văn Quyến và bà Trần Thị Phương (trang 36)."
+  },
+  {
+    "id": "D7_04",
+    "parentId": "D6_02",
+    "generation": 7,
+    "branch": "Phân chi 2 - Nhánh A",
+    "fullName": "Nguyễn Trần Linh Châu",
+    "courtesyName": null,
+    "spouse": null,
+    "birthYear": null,
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con ông Nguyễn Văn Quyến và bà Trần Thị Phương (trang 36)."
+  },
+  {
+    "id": "D7_05",
+    "parentId": "D6_03",
+    "generation": 7,
+    "branch": "Phân chi 2 - Họ Ngoại",
+    "fullName": "Quách Văn Thắng",
+    "courtesyName": null,
+    "spouse": null,
+    "birthYear": null,
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con bà Nguyễn Thị Tuyền và ông Doanh (Trang Phụ bản)."
+  },
+  {
+    "id": "D7_06",
+    "parentId": "D6_03",
+    "generation": 7,
+    "branch": "Phân chi 2 - Họ Ngoại",
+    "fullName": "Quách Văn Chương",
+    "courtesyName": null,
+    "spouse": null,
+    "birthYear": null,
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con bà Nguyễn Thị Tuyền và ông Doanh (Trang Phụ bản)."
+  },
+  {
+    "id": "D7_07",
+    "parentId": "D6_04",
+    "generation": 7,
+    "branch": "Phân chi 2 - Nhánh A",
+    "fullName": "Nguyễn Văn Hùng",
+    "courtesyName": null,
+    "spouse": "Hoàng Thị Trang",
+    "birthYear": "1990",
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con trai ông Nguyễn Văn Hán và bà Lê Thị Quyết (trang 36, 129, Phụ bản). Sinh năm 1990 Âm lịch. Cán bộ công chức tại Bù Đăng, Bình Phước. Vợ là bà Hoàng Thị Trang."
+  },
+  {
+    "id": "D7_08",
+    "parentId": "D6_04",
+    "generation": 7,
+    "branch": "Phân chi 2 - Nhánh A",
+    "fullName": "Nguyễn Thị Hằng",
+    "courtesyName": null,
+    "spouse": "Linh",
+    "birthYear": null,
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con gái ông Nguyễn Văn Hán và bà Lê Thị Quyết (trang 36, Phụ bản). Chồng tên Linh."
+  },
+  {
+    "id": "D7_09",
+    "parentId": "D6_05",
+    "generation": 7,
+    "branch": "Phân chi 2 - Nhánh A",
+    "fullName": "Nguyễn Văn Huấn",
+    "courtesyName": "Huân",
+    "spouse": "Lê Thị Liên",
+    "birthYear": "1989",
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con trai ông Nguyễn Văn Hoan và bà Lê Thị Vinh (trang 36, Phụ bản, 139). Sinh năm 1989 Âm lịch, làm ruộng tại Đông Nam. Vợ là bà Lê Thị Liên."
+  },
+  {
+    "id": "D7_10",
+    "parentId": "D6_05",
+    "generation": 7,
+    "branch": "Phân chi 2 - Nhánh A",
+    "fullName": "Nguyễn Thị Anh",
+    "courtesyName": null,
+    "spouse": "Linh",
+    "birthYear": null,
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con gái ông Nguyễn Văn Hoan và bà Lê Thị Vinh (trang 36, Phụ bản). Chồng tên Linh."
+  },
+  {
+    "id": "D7_11",
+    "parentId": "D6_06",
+    "generation": 7,
+    "branch": "Phân chi 2 - Nhánh A",
+    "fullName": "Nguyễn Văn Vũ",
+    "courtesyName": null,
+    "spouse": null,
+    "birthYear": null,
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con trai ông Nguyễn Văn Huệ và bà Vũ Thị Thuý (trang 36, Phụ bản)."
+  },
+  {
+    "id": "D7_12",
+    "parentId": "D6_06",
+    "generation": 7,
+    "branch": "Phân chi 2 - Nhánh A",
+    "fullName": "Nguyễn Văn Minh",
+    "courtesyName": null,
+    "spouse": null,
+    "birthYear": null,
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con trai ông Nguyễn Văn Huệ và bà Vũ Thị Thuý (trang 36, Phụ bản)."
+  },
+  {
+    "id": "D7_13",
+    "parentId": "D6_08",
+    "generation": 7,
+    "branch": "Cành Thứ (Trưởng họ)",
+    "fullName": "Nguyễn Văn Thiên",
+    "courtesyName": null,
+    "spouse": "Lê Thị Mạnh",
+    "birthYear": "1974",
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con trai Trưởng họ Nguyễn Văn Khoát và bà Lê Thị Nhân (trang 121). Sinh năm 1974 Âm lịch, làm ruộng tại Mai Chữ. Vợ là bà Lê Thị Mạnh (sinh 1984 Âm lịch, con ông Lê Ngọc Việt và bà Lan)."
+  },
+  {
+    "id": "D7_14",
+    "parentId": "D6_08",
+    "generation": 7,
+    "branch": "Cành Thứ (Trưởng họ)",
+    "fullName": "Nguyễn Văn Tứ",
+    "courtesyName": null,
+    "spouse": "Nguyễn Thị Quỳnh",
+    "birthYear": "1978",
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con trai Trưởng họ Nguyễn Văn Khoát và bà Lê Thị Nhân (trang 122). Sinh năm 1978 Âm lịch, làm ruộng tại phố Nhuệ Phát / Mai Chữ. Vợ là bà Nguyễn Thị Quỳnh (con ông Nguyễn Văn Hưng và bà Thắng)."
+  },
+  {
+    "id": "D7_15",
+    "parentId": "D6_08",
+    "generation": 7,
+    "branch": "Cành Thứ (Trưởng họ)",
+    "fullName": "Nguyễn Văn Thức",
+    "courtesyName": "Nguyễn Văn Thế",
+    "spouse": "Nguyễn Thị Thơm",
+    "birthYear": "1989",
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con trai Trưởng họ Nguyễn Văn Khoát và bà Lê Thị Nhân (trang 123). Sinh năm 1989 Âm lịch, làm ruộng tại Mai Chữ. Vợ là bà Nguyễn Thị Thơm (sinh 1992 Âm lịch tại Yên Dũng, Bắc Giang, kết hôn 2020). (Tra soát: Trang 34 ghi tên là Nguyễn Văn Thế, trang tiểu sử 123 ghi chi tiết là Nguyễn Văn Thức)."
+  },
+  {
+    "id": "D7_16",
+    "parentId": "D6_09",
+    "generation": 7,
+    "branch": "Chi Thứ - Nhánh B",
+    "fullName": "Nguyễn Văn Tư",
+    "courtesyName": null,
+    "spouse": "Lê Thị Hồng",
+    "birthYear": "1976",
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con trai ông Nguyễn Văn Được và bà Lê Thị Sự (trang 124). Sinh năm 1976 Âm lịch, làm ruộng tại Mai Chữ. Vợ là bà Lê Thị Hồng (con ông Lê Ngọc Phi và bà Nguyễn Thị Lý)."
+  },
+  {
+    "id": "D7_17",
+    "parentId": "D6_09",
+    "generation": 7,
+    "branch": "Chi Thứ - Nhánh B",
+    "fullName": "Nguyễn Văn Tuấn (Đà Nẵng)",
+    "courtesyName": null,
+    "spouse": "Nguyễn Thị Kim Thanh",
+    "birthYear": "1991",
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con trai ông Nguyễn Văn Được và bà Lê Thị Sự (trang 126). Sinh năm 1991 Âm lịch, tốt nghiệp Đại học Xây dựng, định cư tại TP. Đà Nẵng. Vợ là bà Nguyễn Thị Kim Thanh (quê Đà Nẵng - Quảng Nam; trang 38 ghi có 1 con gái Nguyễn Thị ...). (Tra soát: Trang 34 ghi ông Được sinh 4 con, sổ mới có tiểu sử 2 con trai)."
+  },
+  {
+    "id": "D7_18",
+    "parentId": "D6_10",
+    "generation": 7,
+    "branch": "Chi Thứ - Nhánh B",
+    "fullName": "Nguyễn Thị Nghĩa",
+    "courtesyName": null,
+    "spouse": "Hoàng Văn Tú",
+    "birthYear": null,
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con gái ông Nguyễn Văn Đài/Đại và bà Lê Thị Quế (trang 35, 38). Chồng là Hoàng Văn Tú, sinh 2 con: Hoàng Văn Huy, Hoàng Thị Hà."
+  },
+  {
+    "id": "D7_19",
+    "parentId": "D6_10",
+    "generation": 7,
+    "branch": "Chi Thứ - Nhánh B",
+    "fullName": "Nguyễn Thị Nga",
+    "courtesyName": null,
+    "spouse": "Vũ Văn Luân",
+    "birthYear": null,
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con gái ông Nguyễn Văn Đài/Đại và bà Lê Thị Quế (trang 35, 38). Chồng là Vũ Văn Luân, sinh 3 con: Vũ Hồng Liên, Vũ Lan Anh, Vũ ... (khuyết tên)."
+  },
+  {
+    "id": "D7_20",
+    "parentId": "D6_10",
+    "generation": 7,
+    "branch": "Chi Thứ - Nhánh B",
+    "fullName": "Nguyễn Văn Quý",
+    "courtesyName": null,
+    "spouse": "Cao Thị Liên",
+    "birthYear": "1989",
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con trai ông Nguyễn Văn Đài/Đại và bà Lê Thị Quế (trang 127). Sinh năm 1989 Âm lịch, công nhân tại Đông Nam. Vợ là bà Cao Thị Liên (sinh 1982 Âm lịch tại Cẩm Tú, Cẩm Thủy)."
+  },
+  {
+    "id": "D7_21",
+    "parentId": "D6_13",
+    "generation": 7,
+    "branch": "Chi Thứ - Nhánh B",
+    "fullName": "Nguyễn Thị Loan",
+    "courtesyName": null,
+    "spouse": "Thiều Văn Thiệu",
+    "birthYear": null,
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con gái ông Nguyễn Văn Tòng và bà Lê Thị Bái (trang 35, 39). Chồng là Thiều Văn Thiệu, sinh con Thiều Nguyên Bảo."
+  },
+  {
+    "id": "D7_22",
+    "parentId": "D6_13",
+    "generation": 7,
+    "branch": "Chi Thứ - Nhánh B",
+    "fullName": "Nguyễn Thị Phượng",
+    "courtesyName": null,
+    "spouse": "Hoàn",
+    "birthYear": null,
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con gái ông Nguyễn Văn Tòng và bà Lê Thị Bái (trang 35, 39). Chồng tên Hoàn."
+  },
+  {
+    "id": "D7_23",
+    "parentId": null,
+    "generation": 7,
+    "branch": "Chi Thứ - Nhánh B",
+    "fullName": "Nguyễn Thị Thơm (Đ.7)",
+    "courtesyName": null,
+    "spouse": null,
+    "birthYear": null,
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Thành viên Đời 7 (trang 35). Sinh con gái là Nguyễn Thị Thảo. (Tra soát: Chưa ghi rõ tên cha mẹ ở Đời 6)."
+  },
+  {
+    "id": "D7_24",
+    "parentId": null,
+    "generation": 7,
+    "branch": "Chi Thứ - Nhánh B",
+    "fullName": "Nguyễn Văn Tuấn (vợ Lê Thị Thu)",
+    "courtesyName": null,
+    "spouse": "Lê Thị Thu",
+    "birthYear": null,
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Thành viên Đời 7 (trang 39, 136). Vợ là bà Lê Thị Thu. (Tra soát: Trong sổ có 2 người tên Nguyễn Văn Tuấn ở Đời 7; anh Tuấn vợ Kim Thanh ở Đà Nẵng đã rõ bố là ông Được, còn anh Tuấn vợ Lê Thị Thu chưa ghi rõ bố mẹ Đời 6)."
+  },
+  {
+    "id": "D7_25",
+    "parentId": null,
+    "generation": 7,
+    "branch": "Chi Thứ - Nhánh B",
+    "fullName": "Nguyễn Thị Trâm",
+    "courtesyName": null,
+    "spouse": "Lê Văn Thành",
+    "birthYear": null,
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Thành viên Đời 7 (trang 39). Chồng là ông Lê Văn Thành. (Tra soát: Chưa ghi rõ cha mẹ ở Đời 6)."
+  },
+  {
+    "id": "D7_26",
+    "parentId": null,
+    "generation": 7,
+    "branch": "Chi Thứ - Nhánh B",
+    "fullName": "Nguyễn Thị Châu",
+    "courtesyName": null,
+    "spouse": null,
+    "birthYear": null,
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Thành viên Đời 7 (Trang Phụ bản ghi Đ.17 tính theo đại tộc). (Tra soát: Chưa ghi rõ cha mẹ ở Đời 6)."
+  },
+  {
+    "id": "D8_01",
+    "parentId": "D7_01",
+    "generation": 8,
+    "branch": "Phân chi 2 - Nhánh A",
+    "fullName": "Nguyễn Văn Tiến",
+    "courtesyName": "Nguyễn Minh Tiến",
+    "spouse": null,
+    "birthYear": "2013",
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con trai anh Nguyễn Văn Túc và chị Phạm Thị Chung (trang 39, 137)."
+  },
+  {
+    "id": "D8_02",
+    "parentId": "D7_01",
+    "generation": 8,
+    "branch": "Phân chi 2 - Nhánh A",
+    "fullName": "Nguyễn Hải Yến",
+    "courtesyName": null,
+    "spouse": null,
+    "birthYear": null,
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con gái anh Nguyễn Văn Túc và chị Phạm Thị Chung (trang 39, 137)."
+  },
+  {
+    "id": "D8_03",
+    "parentId": "D7_09",
+    "generation": 8,
+    "branch": "Phân chi 2 - Nhánh A",
+    "fullName": "Nguyễn Minh Khang",
+    "courtesyName": null,
+    "spouse": null,
+    "birthYear": null,
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con trai anh Nguyễn Văn Huấn và chị Lê Thị Liên (trang 139, Phụ bản)."
+  },
+  {
+    "id": "D8_04",
+    "parentId": "D7_07",
+    "generation": 8,
+    "branch": "Phân chi 2 - Nhánh A",
+    "fullName": "Nguyễn Hoàng Dũng",
+    "courtesyName": null,
+    "spouse": null,
+    "birthYear": null,
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con trai anh Nguyễn Văn Hùng và chị Hoàng Thị Trang (trang 138, Phụ bản)."
+  },
+  {
+    "id": "D8_05",
+    "parentId": "D7_07",
+    "generation": 8,
+    "branch": "Phân chi 2 - Nhánh A",
+    "fullName": "Nguyễn Hoàng Oanh",
+    "courtesyName": null,
+    "spouse": null,
+    "birthYear": null,
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con gái anh Nguyễn Văn Hùng và chị Hoàng Thị Trang (trang 138, Phụ bản)."
+  },
+  {
+    "id": "D8_06",
+    "parentId": "D7_13",
+    "generation": 8,
+    "branch": "Cành Thứ (Trưởng họ)",
+    "fullName": "Nguyễn Hoàng Anh",
+    "courtesyName": null,
+    "spouse": null,
+    "birthYear": "2005",
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con trai anh Nguyễn Văn Thiên và chị Lê Thị Mạnh (trang 37, 133). Sinh năm 2005 Âm lịch."
+  },
+  {
+    "id": "D8_07",
+    "parentId": "D7_13",
+    "generation": 8,
+    "branch": "Cành Thứ (Trưởng họ)",
+    "fullName": "Nguyễn Quang Minh",
+    "courtesyName": null,
+    "spouse": null,
+    "birthYear": "2010",
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con trai anh Nguyễn Văn Thiên và chị Lê Thị Mạnh (trang 37, 134). Sinh năm 2010 Âm lịch."
+  },
+  {
+    "id": "D8_08",
+    "parentId": "D7_13",
+    "generation": 8,
+    "branch": "Cành Thứ (Trưởng họ)",
+    "fullName": "Nguyễn Văn Trí",
+    "courtesyName": null,
+    "spouse": null,
+    "birthYear": null,
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con trai anh Nguyễn Văn Thiên và chị Lê Thị Mạnh (trang 37)."
+  },
+  {
+    "id": "D8_09",
+    "parentId": "D7_14",
+    "generation": 8,
+    "branch": "Cành Thứ (Trưởng họ)",
+    "fullName": "Nguyễn Thị Trúc",
+    "courtesyName": null,
+    "spouse": null,
+    "birthYear": null,
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con gái anh Nguyễn Văn Tứ và chị Nguyễn Thị Quỳnh (trang 37, 135)."
+  },
+  {
+    "id": "D8_10",
+    "parentId": "D7_14",
+    "generation": 8,
+    "branch": "Cành Thứ (Trưởng họ)",
+    "fullName": "Nguyễn Văn Vi",
+    "courtesyName": null,
+    "spouse": null,
+    "birthYear": "2010",
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con anh Nguyễn Văn Tứ và chị Nguyễn Thị Quỳnh. (Tra soát: Trang 37 ghi là Nguyễn Văn Vi, trang tiểu sử 135 ghi là Nguyễn Thị Vi sinh năm 2010 Âm lịch)."
+  },
+  {
+    "id": "D8_11",
+    "parentId": "D7_14",
+    "generation": 8,
+    "branch": "Cành Thứ (Trưởng họ)",
+    "fullName": "Nguyễn Văn Phúc",
+    "courtesyName": null,
+    "spouse": null,
+    "birthYear": null,
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con trai anh Nguyễn Văn Tứ và chị Nguyễn Thị Quỳnh (trang 37, 135)."
+  },
+  {
+    "id": "D8_12",
+    "parentId": "D7_20",
+    "generation": 8,
+    "branch": "Chi Thứ - Nhánh B",
+    "fullName": "Nguyễn Thị Hằng (Đ.8)",
+    "courtesyName": null,
+    "spouse": null,
+    "birthYear": null,
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con gái anh Nguyễn Văn Quý và chị Cao Thị Liên (trang 38, 140)."
+  },
+  {
+    "id": "D8_13",
+    "parentId": "D7_20",
+    "generation": 8,
+    "branch": "Chi Thứ - Nhánh B",
+    "fullName": "Nguyễn Thành An",
+    "courtesyName": null,
+    "spouse": null,
+    "birthYear": null,
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con trai anh Nguyễn Văn Quý và chị Cao Thị Liên (trang 38, 140)."
+  },
+  {
+    "id": "D8_14",
+    "parentId": "D7_20",
+    "generation": 8,
+    "branch": "Chi Thứ - Nhánh B",
+    "fullName": "Nguyễn Tấn Đạt",
+    "courtesyName": "Nguyễn Thành Đạt",
+    "spouse": null,
+    "birthYear": "2021",
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con trai anh Nguyễn Văn Quý và chị Cao Thị Liên (trang 140). Sinh tháng 02/2022 Dương lịch (12/2021 Âm lịch). (Tra soát: Trang 38 ghi là Nguyễn Thành Đạt, trang tiểu sử 140 ghi là Nguyễn Tấn Đạt)."
+  },
+  {
+    "id": "D8_15",
+    "parentId": "D7_24",
+    "generation": 8,
+    "branch": "Chi Thứ - Nhánh B",
+    "fullName": "Nguyễn Ngọc Gia Hân",
+    "courtesyName": null,
+    "spouse": null,
+    "birthYear": null,
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con gái anh Nguyễn Văn Tuấn và chị Lê Thị Thu (trang 39, 136)."
+  },
+  {
+    "id": "D8_16",
+    "parentId": "D7_24",
+    "generation": 8,
+    "branch": "Chi Thứ - Nhánh B",
+    "fullName": "Nguyễn Thị Gia Linh",
+    "courtesyName": null,
+    "spouse": null,
+    "birthYear": null,
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con gái anh Nguyễn Văn Tuấn và chị Lê Thị Thu (trang 39, 136)."
+  },
+  {
+    "id": "D8_17",
+    "parentId": "D7_24",
+    "generation": 8,
+    "branch": "Chi Thứ - Nhánh B",
+    "fullName": "Nguyễn Tấn Phát",
+    "courtesyName": null,
+    "spouse": null,
+    "birthYear": null,
+    "status": "living",
+    "lunarDeathDate": null,
+    "graveLocation": null,
+    "graveCoords": null,
+    "photoUrl": null,
+    "biography": "Con trai anh Nguyễn Văn Tuấn và chị Lê Thị Thu (trang 39, 136)."
+  }
+];
+
+let members = [];
+let isAdmin = false;
+let collapsedNodes = new Set();
+
+function initApp() {
+  const saved = localStorage.getItem(STORAGE_DATA_KEY);
+  if (saved) {
+    try {
+      members = JSON.parse(saved);
+    } catch (e) {
+      members = JSON.parse(JSON.stringify(INITIAL_MEMBERS));
+    }
+  } else {
+    members = JSON.parse(JSON.stringify(INITIAL_MEMBERS));
+  }
+
+  const savedFont = localStorage.getItem(FONT_SIZE_KEY);
+  if (savedFont) changeFont(parseInt(savedFont, 10));
+
+  populateDropdowns();
+  renderStats();
+  renderMemorialList();
+  renderTree();
+  renderDirectory();
+}
+
+function saveDataLocal() {
+  localStorage.setItem(STORAGE_DATA_KEY, JSON.stringify(members));
+}
+
+function changeFont(px) {
+  document.documentElement.style.setProperty('--base-font', px + 'px');
+  localStorage.setItem(FONT_SIZE_KEY, px);
+  document.querySelectorAll('.utility-bar .btn').forEach(b => b.classList.remove('active-font'));
+  const btn = document.getElementById('font-' + px);
+  if (btn) btn.classList.add('active-font');
+}
+
+function switchTab(tabId, btnEl) {
+  document.querySelectorAll('.tab-section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.nav-tab').forEach(b => b.classList.remove('active'));
+  document.getElementById('tab-' + tabId).classList.add('active');
+  btnEl.classList.add('active');
+}
+
+/* Trợ lý đọc tiếng Việt TTS cho người cao tuổi */
+function speakText(elementId) {
+  if (!('speechSynthesis' in window)) {
+    alert('Trình duyệt trên máy chưa hỗ trợ tính năng đọc thành tiếng.');
+    return;
+  }
+  window.speechSynthesis.cancel();
+  const text = document.getElementById(elementId).innerText;
+  const utter = new SpeechSynthesisUtterance(text);
+  utter.lang = 'vi-VN';
+  utter.rate = 0.9;
+  window.speechSynthesis.speak(utter);
+}
+
+function speakRaw(text) {
+  if (!('speechSynthesis' in window)) return;
+  window.speechSynthesis.cancel();
+  const utter = new SpeechSynthesisUtterance(text);
+  utter.lang = 'vi-VN';
+  utter.rate = 0.9;
+  window.speechSynthesis.speak(utter);
+}
+
+function stopSpeech() {
+  if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+}
+
+/* Thống kê tổng quan */
+function renderStats() {
+  const total = members.length;
+  const maxGen = Math.max(...members.map(m => Number(m.generation) || 1));
+  const living = members.filter(m => m.status === 'living').length;
+  const deceased = members.filter(m => m.status === 'deceased').length;
+  document.getElementById('statsGrid').innerHTML = `
+    <div class="stat-box"><span class="stat-num">${total}</span>Tổng số thành viên</div>
+    <div class="stat-box"><span class="stat-num">${maxGen} Đời</span>Từ Thủy tổ Tự Phúc Hào</div>
+    <div class="stat-box"><span class="stat-num" style="color:var(--green-living);">${living}</span>Con cháu đương đại</div>
+    <div class="stat-box"><span class="stat-num" style="color:#4B5563;">${deceased}</span>Tiền nhân đã tạ thế</div>
+  `;
+}
+
+/* Sổ giỗ tự động */
+function renderMemorialList() {
+  const deceased = members.filter(m => m.status === 'deceased' && (m.lunarDeathDate || m.graveLocation));
+  const container = document.getElementById('memorialList');
+  container.innerHTML = deceased.map(m => `
+    <div class="member-card">
+      <div>
+        <span class="badge badge-gen">Đời ${m.generation}</span>
+        <span class="badge badge-deceased">Ngày giỗ / Mất: ${m.lunarDeathDate || 'Chưa rõ ngày'}</span>
+        <h4 style="margin:6px 0 4px 0;">${m.fullName} ${m.courtesyName ? '(' + m.courtesyName + ')' : ''}</h4>
+        <div style="font-size:0.88em; color:var(--text-muted);">
+          ${m.spouse ? 'Phối ngẫu: ' + m.spouse + '<br>' : ''}
+          ${m.graveLocation ? '📍 An táng: ' + m.graveLocation : ''}
+        </div>
+      </div>
+      <button class="btn" onclick="openDetail('${m.id}')">Xem tiểu sử</button>
+    </div>
+  `).join('');
+}
+
+/* Điền dữ liệu cho các ô chọn */
+function populateDropdowns() {
+  const sorted = [...members].sort((a, b) => a.generation - b.generation || a.id.localeCompare(b.id));
+  const optionsHtml = sorted.map(m => `<option value="${m.id}">Đời ${m.generation} — ${m.fullName} (${m.id})</option>`).join('');
+
+  document.getElementById('personASelect').innerHTML = optionsHtml;
+  document.getElementById('personBSelect').innerHTML = optionsHtml;
+  if (sorted.length > 1) {
+    const tuc = sorted.find(m => m.id === 'D7_01');
+    const hao = sorted.find(m => m.id === 'D1_01');
+    if (tuc) document.getElementById('personASelect').value = tuc.id;
+    if (hao) document.getElementById('personBSelect').value = hao.id;
+  }
+
+  const maxGen = Math.max(...members.map(m => Number(m.generation) || 1));
+  let genOpts = '<option value="all">Tất cả các đời</option>';
+  for (let g = 1; g <= maxGen; g++) {
+    genOpts += `<option value="${g}">Đời thứ ${g}</option>`;
+  }
+  document.getElementById('listGenFilter').innerHTML = genOpts;
+
+  document.getElementById('fParentId').innerHTML = '<option value="">-- Gốc / Chưa rõ cha (Đang tra soát) --</option>' + optionsHtml;
+}
+
+/* Công cụ tính vai vế xưng hô tự động */
+function calculateKinship() {
+  const idA = document.getElementById('personASelect').value;
+  const idB = document.getElementById('personBSelect').value;
+  const a = members.find(m => m.id === idA);
+  const b = members.find(m => m.id === idB);
+  const resEl = document.getElementById('kinshipResult');
+  if (!a || !b) return;
+  if (a.id === b.id) {
+    resEl.textContent = 'Hai người được chọn là cùng một người.';
+    return;
+  }
+  const diff = b.generation - a.generation;
+  let relation = '';
+  if (diff === 0) relation = `Cùng thế hệ (Đời ${a.generation}) — Gọi nhau là Anh / Chị / Em trong họ.`;
+  else if (diff === -1) relation = `Người trên 1 bậc (Đời ${b.generation}) — ${a.fullName} gọi ${b.fullName} là Cha/Mẹ hoặc Bác / Chú / Cô.`;
+  else if (diff === 1) relation = `Người dưới 1 bậc (Đời ${b.generation}) — ${a.fullName} gọi ${b.fullName} là Con / Cháu.`;
+  else if (diff === -2) relation = `Người trên 2 bậc (Đời ${b.generation}) — ${a.fullName} gọi ${b.fullName} là Ông / Bà.`;
+  else if (diff === 2) relation = `Người dưới 2 bậc (Đời ${b.generation}) — ${a.fullName} gọi ${b.fullName} là Cháu nội / Cháu họ.`;
+  else if (diff === -3) relation = `Người trên 3 bậc (Đời ${b.generation}) — ${a.fullName} gọi ${b.fullName} là Cụ.`;
+  else if (diff === 3) relation = `Người dưới 3 bậc (Đời ${b.generation}) — ${a.fullName} gọi ${b.fullName} là Chắt.`;
+  else if (diff <= -4) relation = `Tổ tiên cách ${Math.abs(diff)} đời (Đời ${b.generation}) — ${a.fullName} tôn xưng ${b.fullName} là Kỵ / Tiên Tổ đời thứ ${b.generation}.`;
+  else relation = `Hậu duệ cách ${diff} đời (Đời ${b.generation}) — Chút / Chít đời thứ ${b.generation}.`;
+
+  resEl.innerHTML = `👉 Kết quả: ${relation}`;
+}
+
+/* Vẽ Cây Phả Hệ Đa Chiều (Mở rộng 20-40 đời) */
+function renderTree() {
+  const query = document.getElementById('treeSearchInput').value.trim().toLowerCase();
+  const genRange = document.getElementById('genRangeFilter').value;
+  const branchFilter = document.getElementById('branchFilter').value;
+
+  let minG = 1, maxG = 40;
+  if (genRange !== 'all') {
+    const parts = genRange.split('-').map(Number);
+    minG = parts[0]; maxG = parts[1];
+  }
+
+  const childrenMap = {};
+  members.forEach(m => {
+    const p = m.parentId || 'ROOT';
+    if (!childrenMap[p]) childrenMap[p] = [];
+    childrenMap[p].push(m);
+  });
+
+  function matchesFilter(m) {
+    if (m.generation < minG || m.generation > maxG) return false;
+    if (branchFilter !== 'all' && !(m.branch || '').includes(branchFilter)) return false;
+    if (query) {
+      const hay = `${m.fullName} ${m.courtesyName || ''} ${m.spouse || ''} ${m.id}`.toLowerCase();
+      if (!hay.includes(query)) return false;
+    }
+    return true;
+  }
+
+  // Nếu đang tìm kiếm hoặc lọc theo khoảng đời hẹp, hiển thị dạng danh sách phân cấp trực tiếp để không bỏ sót
+  const isFiltering = query !== '' || genRange !== 'all' || branchFilter !== 'all';
+  const container = document.getElementById('familyTreeContainer');
+
+  if (isFiltering) {
+    const filtered = members.filter(matchesFilter);
+    if (filtered.length === 0) {
+      container.innerHTML = '<p>Không tìm thấy thành viên phù hợp với bộ lọc hiện tại.</p>';
+      return;
+    }
+    container.innerHTML = filtered.map(m => renderNodeCardHtml(m, false, true)).join('');
+    return;
+  }
+
+  function buildTreeHtml(parentId, isRoot = false) {
+    const list = childrenMap[parentId] || [];
+    if (list.length === 0) return '';
+    return list.map(m => {
+      const kids = childrenMap[m.id] || [];
+      const hasKids = kids.length > 0;
+      const isCollapsed = collapsedNodes.has(m.id);
+      return `
+        <div class="tree-node ${isRoot ? 'root-node' : ''}">
+          ${renderNodeCardHtml(m, hasKids, false, isCollapsed)}
+          ${hasKids && !isCollapsed ? buildTreeHtml(m.id, false) : ''}
+        </div>
+      `;
+    }).join('');
+  }
+
+  const mainRoot = buildTreeHtml('ROOT', true);
+  container.innerHTML = mainRoot;
+}
+
+function renderNodeCardHtml(m, hasKids, showParentBadge, isCollapsed = false) {
+  const isWarn = m.parentId === null && m.generation > 1;
+  const parentObj = m.parentId ? members.find(x => x.id === m.parentId) : null;
+  return `
+    <div class="node-card ${isWarn ? 'has-warning' : ''}" style="margin-bottom:8px;">
+      <div style="display:flex; align-items:flex-start; gap:10px; flex:1; min-width:240px;">
+        ${hasKids ? `<button class="toggle-branch-btn" onclick="toggleNode('${m.id}')" title="Thu gọn / Mở rộng nhánh">${isCollapsed ? '+' : '−'}</button>` : '<span style="width:38px; display:inline-block; text-align:center; color:var(--gold-dark);">•</span>'}
+        <div>
+          <div style="display:flex; flex-wrap:wrap; gap:6px; align-items:center; margin-bottom:4px;">
+            <span class="badge badge-gen">Đời ${m.generation}</span>
+            <span class="badge ${m.status === 'living' ? 'badge-living' : 'badge-deceased'}">${m.status === 'living' ? 'Còn sống' : 'Đã tạ thế'}</span>
+            <span style="font-size:0.8em; color:var(--text-muted);">${m.branch || ''}</span>
+            ${isWarn ? '<span class="badge badge-warn">⚠️ Chờ nối nhánh Đời 5</span>' : ''}
+          </div>
+          <div style="font-weight:800; font-size:1.05em; color:var(--text-main);">
+            ${m.fullName} ${m.courtesyName ? `<span style="font-weight:600; color:var(--red-lacquer);">(${m.courtesyName})</span>` : ''}
+          </div>
+          <div style="font-size:0.88em; color:var(--text-muted);">
+            ${m.spouse ? `Phối ngẫu: <strong>${m.spouse}</strong> &bull; ` : ''}
+            ${m.birthYear ? `Sinh: ${m.birthYear} &bull; ` : ''}
+            ${m.lunarDeathDate ? `Giỗ/Mất: ${m.lunarDeathDate}` : ''}
+            ${showParentBadge && parentObj ? `<br>Con của: <strong>${parentObj.fullName}</strong>` : ''}
+          </div>
+        </div>
+      </div>
+      <div class="util-group">
+        <button class="btn" onclick="openDetail('${m.id}')">Chi tiết</button>
+        ${isAdmin ? `<button class="btn btn-gold" onclick="openMemberForm('${m.id}')">✏️ Sửa</button>` : ''}
+      </div>
+    </div>
+  `;
+}
+
+function toggleNode(id) {
+  if (collapsedNodes.has(id)) collapsedNodes.delete(id);
+  else collapsedNodes.add(id);
+  renderTree();
+}
+
+function expandAllNodes(expand) {
+  if (expand) {
+    collapsedNodes.clear();
+  } else {
+    members.forEach(m => {
+      if (m.generation >= 4) collapsedNodes.add(m.id);
+    });
+  }
+  renderTree();
+}
+
+/* Danh bạ chi tiết (Phân hệ 3) */
+function renderDirectory() {
+  const query = document.getElementById('listSearchInput').value.trim().toLowerCase();
+  const genVal = document.getElementById('listGenFilter').value;
+  const statusVal = document.getElementById('listStatusFilter').value;
+
+  const filtered = members.filter(m => {
+    if (genVal !== 'all' && String(m.generation) !== genVal) return false;
+    if (statusVal === 'living' && m.status !== 'living') return false;
+    if (statusVal === 'deceased' && m.status !== 'deceased') return false;
+    if (statusVal === 'warning' && !(m.parentId === null && m.generation > 1) && !(m.biography || '').includes('Tra soát')) return false;
+    if (query) {
+      const hay = `${m.fullName} ${m.courtesyName || ''} ${m.spouse || ''} ${m.birthYear || ''} ${m.biography || ''} ${m.id}`.toLowerCase();
+      if (!hay.includes(query)) return false;
+    }
+    return true;
+  });
+
+  document.getElementById('directoryGrid').innerHTML = filtered.map(m => {
+    const parentObj = m.parentId ? members.find(x => x.id === m.parentId) : null;
+    const hasTraSoat = (m.biography || '').includes('Tra soát') || (m.parentId === null && m.generation > 1);
+    return `
+      <div class="member-card" style="${hasTraSoat ? 'border-left:5px solid #D97706;' : ''}">
+        <div>
+          <div style="display:flex; flex-wrap:wrap; gap:6px; margin-bottom:6px;">
+            <span class="badge badge-gen">Đời ${m.generation} &bull; ${m.id}</span>
+            <span class="badge ${m.status === 'living' ? 'badge-living' : 'badge-deceased'}">${m.status === 'living' ? 'Còn sống' : 'Đã tạ thế'}</span>
+            ${hasTraSoat ? '<span class="badge badge-warn">Tra soát</span>' : ''}
+          </div>
+          <h4 style="margin:4px 0; font-size:1.1em;">${m.fullName} ${m.courtesyName ? '(' + m.courtesyName + ')' : ''}</h4>
+          <div style="font-size:0.88em; color:var(--text-muted);">
+            <div><strong>Nhánh:</strong> ${m.branch || 'Chưa phân chi'}</div>
+            ${parentObj ? `<div><strong>Con của:</strong> ${parentObj.fullName}</div>` : ''}
+            ${m.spouse ? `<div><strong>Phối ngẫu:</strong> ${m.spouse}</div>` : ''}
+            ${m.birthYear ? `<div><strong>Năm sinh:</strong> ${m.birthYear} (ÂL)</div>` : ''}
+            ${m.lunarDeathDate ? `<div><strong>Mãn phần / Giỗ:</strong> ${m.lunarDeathDate}</div>` : ''}
+          </div>
+        </div>
+        <div class="util-group" style="margin-top:8px;">
+          <button class="btn" onclick="openDetail('${m.id}')">📖 Tiểu sử</button>
+          ${isAdmin ? `<button class="btn btn-gold" onclick="openMemberForm('${m.id}')">✏️ Sửa</button>` : ''}
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+/* Modal Xem Chi Tiết */
+function openDetail(id) {
+  const m = members.find(x => x.id === id);
+  if (!m) return;
+  const parentObj = m.parentId ? members.find(x => x.id === m.parentId) : null;
+  const children = members.filter(x => x.parentId === m.id);
+  const zaloMsg = encodeURIComponent(`Chào Thư ký Túc, tôi xin góp ý chỉnh sửa thông tin gia phả cho vị: ${m.fullName} (Mã: ${m.id}, Đời ${m.generation}). Nội dung cần sửa: ...`);
+
+  const bioSpeech = `${m.fullName}, đời thứ ${m.generation}. ${m.biography || ''}`.replace(/'/g, "\'");
+
+  document.getElementById('detailModalBody').innerHTML = `
+    <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:10px; border-bottom:2px solid var(--border-wood); padding-bottom:10px; margin-bottom:14px;">
+      <div>
+        <span class="badge badge-gen">Đời thứ ${m.generation} &bull; Mã: ${m.id}</span>
+        <span class="badge ${m.status === 'living' ? 'badge-living' : 'badge-deceased'}">${m.status === 'living' ? 'Còn sống' : 'Đã tạ thế'}</span>
+        <h2 style="margin:6px 0 0 0; color:var(--red-lacquer);">${m.fullName} ${m.courtesyName ? '(' + m.courtesyName + ')' : ''}</h2>
+      </div>
+      <button class="btn" onclick="closeModal('detailModal')">✕ Đóng</button>
+    </div>
+    <div style="font-size:0.95em; line-height:1.7;">
+      <p><strong>Chi phái / Nhánh:</strong> ${m.branch || 'Chưa phân chi'}</p>
+      <p><strong>Thân phụ / Mẫu thân trực hệ:</strong> ${parentObj ? parentObj.fullName + ' (Đời ' + parentObj.generation + ')' : 'Gốc / Đang tra soát'}</p>
+      <p><strong>Phối ngẫu (Vợ / Chồng):</strong> ${m.spouse || 'Chưa cập nhật'}</p>
+      <p><strong>Năm sinh (Âm lịch):</strong> ${m.birthYear || 'Chưa rõ'}</p>
+      ${m.status === 'deceased' ? `<p><strong>Ngày giỗ / Năm mất:</strong> ${m.lunarDeathDate || 'Chưa rõ'}</p>` : ''}
+      ${m.graveLocation ? `<p><strong>Nơi an táng:</strong> ${m.graveLocation} <a class="btn btn-primary" style="padding:4px 10px; min-height:36px; margin-left:6px;" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(m.graveLocation)}" target="_blank" rel="noopener">📍 Chỉ đường GPS</a></p>` : ''}
+      <div style="background:var(--bg-warm); padding:14px; border-radius:10px; border-left:4px solid var(--red-lacquer); margin:12px 0;">
+        <strong>Tiểu sử, hành trạng &amp; ghi chú:</strong><br>
+        ${m.biography || 'Chưa có ghi chép chi tiết.'}
+      </div>
+      ${children.length > 0 ? `<p><strong>Các con (${children.length} vị):</strong> ${children.map(c => c.fullName).join(', ')}</p>` : ''}
+    </div>
+    <div class="util-group" style="margin-top:16px; justify-content:space-between;">
+      <button class="btn btn-gold" onclick="speakRaw('${bioSpeech}')">🔊 Nghe đọc tiểu sử</button>
+      <div class="util-group">
+        <a class="btn btn-zalo" href="https://zalo.me/0335940968?text=${zaloMsg}" target="_blank" rel="noopener">💬 Báo sửa qua Zalo</a>
+        ${isAdmin ? `<button class="btn btn-admin-on" onclick="closeModal('detailModal'); openMemberForm('${m.id}')">✏️ Sửa hồ sơ</button>` : ''}
+      </div>
+    </div>
+  `;
+  document.getElementById('detailModal').classList.add('open');
+}
+
+/* Quản trị Admin / Trưởng họ */
+function openAdminModal() {
+  if (isAdmin) {
+    document.getElementById('adminPanel').scrollIntoView({ behavior: 'smooth' });
+    return;
+  }
+  document.getElementById('adminPasswordInput').value = '';
+  document.getElementById('adminLoginModal').classList.add('open');
+}
+
+function verifyAdmin() {
+  const val = document.getElementById('adminPasswordInput').value;
+  if (val === ADMIN_PASS) {
+    isAdmin = true;
+    closeModal('adminLoginModal');
+    document.getElementById('adminPanel').style.display = 'block';
+    const btn = document.getElementById('adminToggleBtn');
+    btn.textContent = '🛡️ Đang ở quyền Trưởng họ';
+    btn.classList.add('btn-admin-on');
+    renderTree();
+    renderDirectory();
+  } else {
+    alert('Mật khẩu chưa đúng! Mật khẩu mặc định là 123456.');
+  }
+}
+
+function logoutAdmin() {
+  isAdmin = false;
+  document.getElementById('adminPanel').style.display = 'none';
+  const btn = document.getElementById('adminToggleBtn');
+  btn.textContent = '🔒 Trưởng họ / Admin';
+  btn.classList.remove('btn-admin-on');
+  renderTree();
+  renderDirectory();
+}
+
+function toggleDeathFields() {
+  const st = document.getElementById('fStatus').value;
+  document.getElementById('deathDateRow').style.opacity = st === 'deceased' ? '1' : '0.45';
+  document.getElementById('graveRow').style.opacity = st === 'deceased' ? '1' : '0.45';
+}
+
+function openMemberForm(id) {
+  populateDropdowns();
+  if (id) {
+    const m = members.find(x => x.id === id);
+    document.getElementById('editModalTitle').textContent = `✏️ Sửa Thông Tin: ${m.fullName} (${m.id})`;
+    document.getElementById('editMemberId').value = m.id;
+    document.getElementById('fFullName').value = m.fullName || '';
+    document.getElementById('fCourtesyName').value = m.courtesyName || '';
+    document.getElementById('fGeneration').value = m.generation || 1;
+    document.getElementById('fParentId').value = m.parentId || '';
+    document.getElementById('fBranch').value = m.branch || '';
+    document.getElementById('fSpouse').value = m.spouse || '';
+    document.getElementById('fBirthYear').value = m.birthYear || '';
+    document.getElementById('fStatus').value = m.status || 'living';
+    document.getElementById('fDeathDate').value = m.lunarDeathDate || '';
+    document.getElementById('fGraveLocation').value = m.graveLocation || '';
+    document.getElementById('fBiography').value = m.biography || '';
+  } else {
+    document.getElementById('editModalTitle').textContent = '➕ Thêm Thành Viên Mới Vào Gia Phả';
+    document.getElementById('editMemberId').value = '';
+    document.getElementById('fFullName').value = '';
+    document.getElementById('fCourtesyName').value = '';
+    document.getElementById('fGeneration').value = '8';
+    document.getElementById('fParentId').value = '';
+    document.getElementById('fBranch').value = 'Phân chi 2 - Nhánh A';
+    document.getElementById('fSpouse').value = '';
+    document.getElementById('fBirthYear').value = '';
+    document.getElementById('fStatus').value = 'living';
+    document.getElementById('fDeathDate').value = '';
+    document.getElementById('fGraveLocation').value = '';
+    document.getElementById('fBiography').value = '';
+  }
+  toggleDeathFields();
+  document.getElementById('editModal').classList.add('open');
+}
+
+function saveMemberForm() {
+  const fullName = document.getElementById('fFullName').value.trim();
+  if (!fullName) {
+    alert('Vui lòng nhập Họ và Tên thành viên!');
+    return;
+  }
+  const editId = document.getElementById('editMemberId').value;
+  const gen = parseInt(document.getElementById('fGeneration').value, 10) || 1;
+  const parentId = document.getElementById('fParentId').value || null;
+  const status = document.getElementById('fStatus').value;
+
+  const record = {
+    id: editId || `D${gen}_${String(members.filter(x => x.generation === gen).length + 1).padStart(2, '0')}`,
+    parentId: parentId,
+    generation: gen,
+    branch: document.getElementById('fBranch').value.trim() || null,
+    fullName: fullName,
+    courtesyName: document.getElementById('fCourtesyName').value.trim() || null,
+    spouse: document.getElementById('fSpouse').value.trim() || null,
+    birthYear: document.getElementById('fBirthYear').value.trim() || null,
+    status: status,
+    lunarDeathDate: status === 'deceased' ? (document.getElementById('fDeathDate').value.trim() || null) : null,
+    graveLocation: status === 'deceased' ? (document.getElementById('fGraveLocation').value.trim() || null) : null,
+    graveCoords: null,
+    photoUrl: null,
+    biography: document.getElementById('fBiography').value.trim() || null
+  };
+
+  if (editId) {
+    const idx = members.findIndex(x => x.id === editId);
+    if (idx !== -1) members[idx] = record;
+  } else {
+    members.push(record);
+  }
+
+  saveDataLocal();
+  populateDropdowns();
+  renderStats();
+  renderMemorialList();
+  renderTree();
+  renderDirectory();
+  closeModal('editModal');
+  alert('Đã cập nhật dữ liệu thành công!');
+}
+
+function exportJSON() {
+  const blob = new Blob([JSON.stringify(members, null, 2)], { type: 'application/json;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'GiaPha_NguyenVan_DongSon_Backup.json';
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+function importJSON(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = function(e) {
+    try {
+      const parsed = JSON.parse(e.target.result);
+      if (Array.isArray(parsed)) {
+        members = parsed;
+        saveDataLocal();
+        populateDropdowns();
+        renderStats();
+        renderMemorialList();
+        renderTree();
+        renderDirectory();
+        alert(`Đã nạp thành công ${members.length} thành viên từ file sao lưu!`);
+      }
+    } catch (err) {
+      alert('File JSON không đúng định dạng!');
+    }
+  };
+  reader.readAsText(file);
+}
+
+function resetToOriginalData() {
+  if (confirm('Khôi phục lại đúng dữ liệu gốc 88 thành viên từ sổ gia phả ban đầu?')) {
+    localStorage.removeItem(STORAGE_DATA_KEY);
+    members = JSON.parse(JSON.stringify(INITIAL_MEMBERS));
+    populateDropdowns();
+    renderStats();
+    renderMemorialList();
+    renderTree();
+    renderDirectory();
+  }
+}
+
+function closeModal(id) {
+  document.getElementById(id).classList.remove('open');
+}
+
+initApp();
+</script>
+</body>
+</html>
